@@ -1,0 +1,161 @@
+agent prakhar.tiwari@polytechnique.edu: obs Box(0.0, 1.0, (11,), float32) act MultiBinary(2) | pretrained True | learning False | DDQN (greedy on a dueling Q-network 64+64 = 128 hidden units) | history 4 | shaping False
+500 steps 21s | reward/1000 +60.0 (+:7 -:1) | missed 0 | think 0.6ms | updates 0
+1000 steps 42s | reward/1000 +45.0 (+:12 -:3) | missed 0 | think 0.6ms | updates 0
+1500 steps 62s | reward/1000 +43.3 (+:19 -:6) | missed 0 | think 0.6ms | updates 0
+2000 steps 82s | reward/1000 +42.5 (+:26 -:9) | missed 0 | think 0.6ms | updates 0
+2500 steps 103s | reward/1000 +40.0 (+:31 -:11) | missed 0 | think 0.6ms | updates 0
+3000 steps 123s | reward/1000 +40.0 (+:37 -:13) | missed 0 | think 0.6ms | updates 0
+3500 steps 143s | reward/1000 +35.7 (+:42 -:17) | missed 0 | think 0.6ms | updates 0
+4000 steps 161s | reward/1000 +35.0 (+:47 -:19) | missed 0 | think 0.6ms | updates 0
+4500 steps 179s | reward/1000 +35.6 (+:52 -:20) | missed 0 | think 0.6ms | updates 0
+5000 steps 199s | reward/1000 +36.0 (+:59 -:23) | missed 0 | think 0.6ms | updates 0
+5500 steps 225s | reward/1000 +36.4 (+:65 -:25) | missed 0 | think 0.6ms | updates 0
+6000 steps 246s | reward/1000 +37.5 (+:72 -:27) | missed 0 | think 0.6ms | updates 0
+6500 steps 265s | reward/1000 +36.9 (+:77 -:29) | missed 0 | think 0.6ms | updates 0
+7000 steps 284s | reward/1000 +37.9 (+:83 -:30) | missed 0 | think 0.5ms | updates 0
+7500 steps 303s | reward/1000 +36.7 (+:87 -:32) | missed 0 | think 0.5ms | updates 0
+8000 steps 323s | reward/1000 +36.9 (+:94 -:35) | missed 0 | think 0.5ms | updates 0
+8500 steps 348s | reward/1000 +37.1 (+:100 -:37) | missed 0 | think 0.5ms | updates 0
+9000 steps 369s | reward/1000 +37.2 (+:106 -:39) | missed 0 | think 0.5ms | updates 0
+9500 steps 391s | reward/1000 +35.8 (+:109 -:41) | missed 0 | think 0.5ms | updates 0
+10000 steps 411s | reward/1000 +36.5 (+:116 -:43) | missed 0 | think 0.3ms | updates 0
+10500 steps 433s | reward/1000 +37.6 (+:123 -:44) | missed 0 | think 0.3ms | updates 0
+11000 steps 453s | reward/1000 +37.7 (+:129 -:46) | missed 0 | think 0.3ms | updates 0
+11500 steps 473s | reward/1000 +37.0 (+:133 -:48) | missed 0 | think 0.2ms | updates 0
+12000 steps 493s | reward/1000 +37.5 (+:141 -:51) | missed 0 | think 0.2ms | updates 0
+12500 steps 514s | reward/1000 +36.8 (+:146 -:54) | missed 0 | think 0.2ms | updates 0
+13000 steps 535s | reward/1000 +36.9 (+:152 -:56) | missed 0 | think 0.2ms | updates 0
+13500 steps 555s | reward/1000 +37.0 (+:158 -:58) | missed 0 | think 0.2ms | updates 0
+14000 steps 575s | reward/1000 +36.4 (+:162 -:60) | missed 0 | think 0.2ms | updates 0
+14500 steps 596s | reward/1000 +36.2 (+:168 -:63) | missed 0 | think 0.2ms | updates 0
+15000 steps 616s | reward/1000 +36.3 (+:173 -:64) | missed 0 | think 0.2ms | updates 0
+15500 steps 636s | reward/1000 +36.8 (+:181 -:67) | missed 0 | think 0.2ms | updates 0
+agent prakhar.tiwari@polytechnique.edu: recording live20 | DDQN True | history 4
+500 steps 19s | reward/1000 +50.0 (+:7 -:2) | missed 0 | think 0.2ms | updates 0
+1000 steps 38s | reward/1000 +45.0 (+:12 -:3) | missed 0 | think 0.2ms | updates 0
+1500 steps 57s | reward/1000 +43.3 (+:18 -:5) | missed 0 | think 0.2ms | updates 0
+2000 steps 77s | reward/1000 +40.0 (+:23 -:7) | missed 0 | think 0.2ms | updates 0
+2500 steps 99s | reward/1000 +36.0 (+:29 -:11) | missed 0 | think 0.2ms | updates 0
+3000 steps 121s | reward/1000 +36.7 (+:35 -:14) | missed 0 | think 0.2ms | updates 0
+3500 steps 141s | reward/1000 +41.4 (+:44 -:16) | missed 0 | think 0.2ms | updates 0
+4000 steps 163s | reward/1000 +37.5 (+:48 -:19) | missed 0 | think 0.2ms | updates 0
+4500 steps 182s | reward/1000 +40.0 (+:56 -:21) | missed 0 | think 0.2ms | updates 0
+5000 steps 201s | reward/1000 +39.0 (+:60 -:22) | missed 0 | think 0.2ms | updates 0
+5500 steps 222s | reward/1000 +37.3 (+:64 -:24) | missed 0 | think 0.2ms | updates 0
+6000 steps 244s | reward/1000 +36.7 (+:70 -:27) | missed 0 | think 0.2ms | updates 0
+6500 steps 266s | reward/1000 +37.7 (+:76 -:28) | missed 0 | think 0.2ms | updates 0
+7000 steps 290s | reward/1000 +35.7 (+:81 -:32) | missed 0 | think 0.2ms | updates 0
+7500 steps 313s | reward/1000 +36.0 (+:88 -:35) | missed 0 | think 0.2ms | updates 0
+8000 steps 335s | reward/1000 +35.6 (+:95 -:39) | missed 0 | think 0.2ms | updates 0
+8500 steps 358s | reward/1000 +35.9 (+:101 -:41) | missed 0 | think 0.2ms | updates 0
+9000 steps 379s | reward/1000 +35.6 (+:107 -:44) | missed 0 | think 0.2ms | updates 0
+9500 steps 403s | reward/1000 +34.7 (+:111 -:46) | missed 0 | think 0.2ms | updates 0
+10000 steps 424s | reward/1000 +34.5 (+:116 -:48) | missed 0 | think 0.2ms | updates 0
+10500 steps 446s | reward/1000 +34.8 (+:123 -:51) | missed 0 | think 0.2ms | updates 0
+11000 steps 469s | reward/1000 +34.5 (+:131 -:56) | missed 0 | think 0.2ms | updates 0
+11500 steps 493s | reward/1000 +34.8 (+:136 -:57) | missed 0 | think 0.2ms | updates 0
+12000 steps 518s | reward/1000 +35.4 (+:143 -:59) | missed 0 | think 0.2ms | updates 0
+12500 steps 543s | reward/1000 +35.6 (+:150 -:62) | missed 0 | think 0.2ms | updates 0
+13000 steps 569s | reward/1000 +35.4 (+:156 -:65) | missed 0 | think 0.2ms | updates 0
+13500 steps 597s | reward/1000 +35.6 (+:162 -:67) | missed 0 | think 0.2ms | updates 0
+14000 steps 622s | reward/1000 +35.7 (+:168 -:69) | missed 0 | think 0.2ms | updates 0
+agent prakhar.tiwari@polytechnique.edu: recording play143k | DDQN True | history 4
+5000 steps 191s | reward/1000 +39.0 (+:52 -:13) | missed 0 | think 0.6ms | updates 0
+10000 steps 385s | reward/1000 +41.0 (+:112 -:30) | missed 0 | think 0.6ms | updates 0
+15000 steps 578s | reward/1000 +40.0 (+:162 -:42) | missed 0 | think 0.5ms | updates 0
+20000 steps 765s | reward/1000 +38.0 (+:211 -:59) | missed 0 | think 0.6ms | updates 0
+25000 steps 957s | reward/1000 +39.0 (+:270 -:75) | missed 0 | think 0.5ms | updates 0
+30000 steps 1152s | reward/1000 +39.0 (+:321 -:87) | missed 0 | think 0.5ms | updates 0
+35000 steps 1337s | reward/1000 +38.1 (+:370 -:103) | missed 0 | think 0.6ms | updates 0
+40000 steps 1525s | reward/1000 +38.8 (+:425 -:116) | missed 0 | think 0.6ms | updates 0
+45000 steps 1708s | reward/1000 +39.1 (+:488 -:139) | missed 0 | think 0.6ms | updates 0
+50000 steps 1896s | reward/1000 +39.5 (+:545 -:153) | missed 0 | think 0.5ms | updates 0
+55000 steps 2092s | reward/1000 +39.8 (+:601 -:166) | missed 0 | think 0.6ms | updates 0
+60000 steps 2279s | reward/1000 +39.2 (+:649 -:182) | missed 0 | think 0.6ms | updates 0
+65000 steps 2467s | reward/1000 +39.5 (+:705 -:194) | missed 0 | think 0.6ms | updates 0
+70000 steps 2653s | reward/1000 +39.3 (+:752 -:205) | missed 0 | think 0.6ms | updates 0
+75000 steps 2854s | reward/1000 +39.3 (+:809 -:222) | missed 0 | think 0.5ms | updates 0
+80000 steps 3040s | reward/1000 +39.4 (+:867 -:240) | missed 0 | think 0.5ms | updates 0
+agent prakhar.tiwari@polytechnique.edu: recording play143k_as10 | DDQN True | history 4 | anti-stall 10
+5000 steps 381s | reward/1000 +44.0 (+:57 -:13) | missed 0 | think 0.2ms | updates 0
+10000 steps 751s | reward/1000 +39.0 (+:109 -:31) | missed 0 | think 0.3ms | updates 0
+agent prakhar.tiwari@polytechnique.edu: recording play143k_as10 | DDQN True | history 4 | anti-stall 10
+5000 steps 394s | reward/1000 +37.0 (+:53 -:16) | missed 0 | think 0.2ms | updates 0
+10000 steps 792s | reward/1000 +36.0 (+:108 -:36) | missed 0 | think 0.3ms | updates 0
+final: 10000 steps 792s | reward/1000 +36.0 (+:108 -:36) | missed 0 | think 0.3ms | updates 0
+2026-10-21 11:52:15 play-for: co-player 143k + anti-stall until 2026-10-21 15:52:15
+agent prakhar.tiwari@polytechnique.edu: recording play143k_as10 | DDQN True | history 4 | anti-stall 10
+5000 steps 443s | reward/1000 +40.0 (+:54 -:14) | missed 0 | think 0.4ms | updates 0
+10000 steps 877s | reward/1000 +41.5 (+:106 -:23) | missed 0 | think 0.4ms | updates 0
+15000 steps 1339s | reward/1000 +40.7 (+:168 -:46) | missed 0 | think 0.4ms | updates 0
+20000 steps 1830s | reward/1000 +41.2 (+:226 -:62) | missed 0 | think 0.3ms | updates 0
+25000 steps 2287s | reward/1000 +40.2 (+:275 -:75) | missed 0 | think 0.3ms | updates 0
+30000 steps 2765s | reward/1000 +40.5 (+:332 -:90) | missed 0 | think 0.3ms | updates 0
+35000 steps 3263s | reward/1000 +40.1 (+:395 -:115) | missed 0 | think 0.4ms | updates 0
+40000 steps 3727s | reward/1000 +40.5 (+:450 -:127) | missed 0 | think 0.4ms | updates 0
+45000 steps 4211s | reward/1000 +39.4 (+:495 -:141) | missed 0 | think 0.3ms | updates 0
+50000 steps 4688s | reward/1000 +39.2 (+:553 -:162) | missed 0 | think 0.3ms | updates 0
+55000 steps 5186s | reward/1000 +39.5 (+:617 -:184) | missed 0 | think 0.3ms | updates 0
+60000 steps 5782s | reward/1000 +39.7 (+:672 -:197) | missed 0 | think 0.3ms | updates 0
+65000 steps 6573s | reward/1000 +40.0 (+:733 -:214) | missed 0 | think 0.3ms | updates 0
+70000 steps 7185s | reward/1000 +39.4 (+:779 -:228) | missed 0 | think 0.3ms | updates 0
+75000 steps 7765s | reward/1000 +39.3 (+:832 -:243) | missed 0 | think 0.3ms | updates 0
+80000 steps 8475s | reward/1000 +39.2 (+:886 -:260) | missed 0 | think 0.3ms | updates 0
+85000 steps 9096s | reward/1000 +39.4 (+:944 -:275) | missed 0 | think 0.3ms | updates 0
+90000 steps 10452s | reward/1000 +39.4 (+:997 -:289) | missed 0 | think 0.3ms | updates 0
+95000 steps 11441s | reward/1000 +39.3 (+:1049 -:304) | missed 0 | think 0.3ms | updates 0
+100000 steps 12237s | reward/1000 +39.3 (+:1107 -:323) | missed 0 | think 0.3ms | updates 0
+105000 steps 12748s | reward/1000 +39.1 (+:1163 -:343) | missed 0 | think 0.3ms | updates 0
+110000 steps 13182s | reward/1000 +39.3 (+:1222 -:360) | missed 0 | think 0.3ms | updates 0
+115000 steps 13591s | reward/1000 +39.4 (+:1278 -:373) | missed 0 | think 0.3ms | updates 0
+120000 steps 14017s | reward/1000 +39.3 (+:1331 -:389) | missed 0 | think 0.3ms | updates 0
+2026-10-21 15:52:15 play-for: deadline reached, stopped
+final: 124595 steps 14399s | reward/1000 +39.4 (+:1383 -:404) | missed 0 | think 0.3ms | updates 0
+Traceback (most recent call last):
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/src/contest_record.py", line 143, in <module>
+    main()
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/src/contest_record.py", line 98, in main
+    obs2, rew, term, trunc, infos = env.step(action)
+                                    ^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/pzclient/remote_env.py", line 380, in step
+    response = self._request(
+               ^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/pzclient/remote_env.py", line 595, in _request
+    response = self._session.request(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,21 @@
+{
+ "total_steps": 500000,
+ "buffer": 1000000,
+ "batch": 256,
+ "updates_per_step": 2,
+ "lr": 0.0001,
+ "gamma": 0.99,
+ "n_step": 5,
+ "target_every": 2000,
+ "eps_start": 0.3,
+ "eps_end": 0.02,
+ "eps_steps": 300000,
+ "shaping": true,
+ "prefill": true,
+ "log_every": 4096,
+ "ckpt_every": 20480,
+ "keep_last": 3,
+ "keep_best": 3,
+ "best_window": 40960,
+ "seed": 0
+}

@@ -1,0 +1,25 @@
+loaded 1000000 transitions from runs/ddqn/buffer.npz
+{"update": 20000, "loss": 0.16321, "cql_gap": 0.6615, "mean_q": 3.541, "ent": 0.417, "alpha": 0.4178, "agree_with_buffer": 0.747, "updates_per_s": 280.2}
+{"update": 40000, "loss": 0.16493, "cql_gap": 0.6088, "mean_q": 5.595, "ent": 0.485, "alpha": 0.5644, "agree_with_buffer": 0.753, "updates_per_s": 281.0}
+{"update": 60000, "loss": 0.16632, "cql_gap": 0.593, "mean_q": 5.71, "ent": 0.485, "alpha": 0.5967, "agree_with_buffer": 0.761, "updates_per_s": 280.5}
+{"update": 80000, "loss": 0.16714, "cql_gap": 0.5834, "mean_q": 5.722, "ent": 0.485, "alpha": 0.6156, "agree_with_buffer": 0.763, "updates_per_s": 280.4}
+{"update": 100000, "loss": 0.16759, "cql_gap": 0.5767, "mean_q": 5.733, "ent": 0.485, "alpha": 0.6289, "agree_with_buffer": 0.763, "updates_per_s": 280.9}
+{"update": 120000, "loss": 0.16805, "cql_gap": 0.5708, "mean_q": 5.751, "ent": 0.485, "alpha": 0.6403, "agree_with_buffer": 0.77, "updates_per_s": 281.3}
+{"update": 140000, "loss": 0.16904, "cql_gap": 0.567, "mean_q": 5.758, "ent": 0.485, "alpha": 0.6494, "agree_with_buffer": 0.764, "updates_per_s": 281.2}
+{"update": 160000, "loss": 0.16946, "cql_gap": 0.5634, "mean_q": 5.772, "ent": 0.485, "alpha": 0.6574, "agree_with_buffer": 0.767, "updates_per_s": 281.1}
+{"update": 180000, "loss": 0.16992, "cql_gap": 0.5603, "mean_q": 5.787, "ent": 0.485, "alpha": 0.6655, "agree_with_buffer": 0.773, "updates_per_s": 281.2}
+{"update": 200000, "loss": 0.17082, "cql_gap": 0.558, "mean_q": 5.794, "ent": 0.485, "alpha": 0.67, "agree_with_buffer": 0.774, "updates_per_s": 281.2}
+{"update": 220000, "loss": 0.17115, "cql_gap": 0.5556, "mean_q": 5.795, "ent": 0.485, "alpha": 0.6753, "agree_with_buffer": 0.765, "updates_per_s": 281.2}
+{"update": 240000, "loss": 0.17158, "cql_gap": 0.5536, "mean_q": 5.811, "ent": 0.485, "alpha": 0.6811, "agree_with_buffer": 0.778, "updates_per_s": 281.3}
+{"update": 260000, "loss": 0.17226, "cql_gap": 0.552, "mean_q": 5.814, "ent": 0.485, "alpha": 0.6845, "agree_with_buffer": 0.775, "updates_per_s": 281.2}
+{"update": 280000, "loss": 0.173, "cql_gap": 0.5505, "mean_q": 5.805, "ent": 0.485, "alpha": 0.6874, "agree_with_buffer": 0.777, "updates_per_s": 281.2}
+{"update": 300000, "loss": 0.17301, "cql_gap": 0.5492, "mean_q": 5.818, "ent": 0.485, "alpha": 0.691, "agree_with_buffer": 0.775, "updates_per_s": 281.2}
+{"update": 320000, "loss": 0.17361, "cql_gap": 0.5467, "mean_q": 5.828, "ent": 0.485, "alpha": 0.6955, "agree_with_buffer": 0.773, "updates_per_s": 281.3}
+{"update": 340000, "loss": 0.17421, "cql_gap": 0.5464, "mean_q": 5.834, "ent": 0.485, "alpha": 0.6984, "agree_with_buffer": 0.776, "updates_per_s": 281.3}
+{"update": 360000, "loss": 0.17449, "cql_gap": 0.5449, "mean_q": 5.831, "ent": 0.485, "alpha": 0.7009, "agree_with_buffer": 0.775, "updates_per_s": 281.1}
+{"update": 380000, "loss": 0.17512, "cql_gap": 0.5436, "mean_q": 5.837, "ent": 0.485, "alpha": 0.7036, "agree_with_buffer": 0.78, "updates_per_s": 281.2}
+{"update": 400000, "loss": 0.1752, "cql_gap": 0.5432, "mean_q": 5.826, "ent": 0.485, "alpha": 0.7049, "agree_with_buffer": 0.776, "updates_per_s": 281.1}
+/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/src/train/sac_offline.py:109: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  torch.save({"algo": "sac", "actor": actor.state_dict(), "critics": critics.state_dict(), "log_alpha": float(log_alpha),
+saved /Data/prakhar.tiwari/Reinforcement_Learning_Challenge/runs/sac_off_cql/final.pt

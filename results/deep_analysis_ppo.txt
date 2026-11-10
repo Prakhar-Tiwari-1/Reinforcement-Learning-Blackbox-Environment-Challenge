@@ -1,0 +1,100 @@
+data: ['data/eval_base_s11.npz#0', 'data/eval_base_s12.npz#0', 'data/eval_base_s13.npz#0']  (3 agent trajectories, 24000 agent-steps)
+
+## 1. Observation dims around events (offset 0 = obs right after the event step)
+
+### food (+5): n = 60
+  offset    d0      d1      d2      d3      d4      d5      d6      d7      d8      d9      d10 
+    -30    0.000   0.356   0.000   0.000   0.000   0.000   0.000   0.000   0.534   0.340   0.087
+    -20    0.000   0.367   0.017   0.033   0.000   0.000   0.017   0.000   0.531   0.524   0.104
+    -10    0.000   0.345   0.000   0.017   0.000   0.000   0.050   0.000   0.524   0.758   0.140
+     -5    0.000   0.341   0.000   0.000   0.000   0.000   0.067   0.000   0.520   0.837   0.160
+     -3    0.000   0.337   0.000   0.017   0.000   0.000   0.050   0.000   0.518   0.862   0.171
+     -2    0.000   0.336   0.017   0.000   0.000   0.000   0.067   0.000   0.514   0.876   0.176
+     -1    0.000   0.337   0.017   0.000   0.000   0.000   0.067   0.000   0.509   0.896   0.191
+     +0    0.000   0.338   0.017   0.000   0.000   0.000   0.067   0.000   0.502   0.609   0.201
+     +1    0.000   0.339   0.033   0.000   0.000   0.000   0.067   0.000   0.509   0.605   0.190
+     +2    0.000   0.337   0.000   0.000   0.017   0.017   0.067   0.017   0.511   0.603   0.175
+     +5    0.017   0.326   0.017   0.017   0.017   0.033   0.067   0.000   0.531   0.526   0.157
+    +10    0.000   0.346   0.033   0.050   0.017   0.017   0.017   0.000   0.535   0.479   0.123
+
+### death: n = 47
+  offset    d0      d1      d2      d3      d4      d5      d6      d7      d8      d9      d10 
+    -30    0.000   0.427   0.000   0.000   0.021   0.021   0.000   0.128   0.393   0.334   0.089
+    -20    0.000   0.505   0.000   0.000   0.000   0.043   0.000   0.106   0.390   0.328   0.077
+    -10    0.000   0.751   0.043   0.000   0.000   0.085   0.000   0.128   0.357   0.254   0.096
+     -5    0.021   0.877   0.149   0.000   0.000   0.106   0.000   0.106   0.315   0.272   0.087
+     -3    0.021   0.899   0.085   0.000   0.000   0.085   0.000   0.106   0.212   0.270   0.095
+     -2    0.021   0.914   0.106   0.000   0.000   0.106   0.000   0.085   0.147   0.277   0.103
+     -1    0.043   0.927   0.106   0.000   0.000   0.085   0.000   0.085   0.067   0.286   0.114
+     +0    0.128   0.601   0.043   0.000   0.064   0.021   0.000   0.043   0.500   0.188   0.126
+     +1    0.043   0.586   0.021   0.000   0.043   0.000   0.000   0.021   0.492   0.236   0.011
+     +2    0.043   0.582   0.021   0.000   0.043   0.000   0.000   0.021   0.484   0.235   0.026
+     +5    0.043   0.540   0.000   0.000   0.021   0.000   0.000   0.000   0.487   0.226   0.043
+    +10    0.000   0.516   0.000   0.000   0.043   0.021   0.000   0.021   0.490   0.195   0.057
+
+## 2. Lives
+  completed lives: 47   mean length 424  median 251
+  food per life: mean 1.09; distribution {np.int64(0): np.int64(16), np.int64(1): np.int64(23), np.int64(2): np.int64(4), np.int64(3): np.int64(1), np.int64(4): np.int64(1), np.int64(5): np.int64(1), np.int64(8): np.int64(1)}
+    lives with 0 food: n=  16  mean length    247  median    227
+    lives with 1 food: n=  23  mean length    271  median    232
+    lives with 2 food: n=   4  mean length    468  median    542
+    lives with 3 food: n=   1  mean length    562  median    562
+    lives with 4 food: n=   1  mean length   1644  median   1644
+    lives with 5 food: n=   1  mean length   1503  median   1503
+  correlation(food in life, life length) = +0.86
+
+## 3. Dim 8 (energy?) dynamics
+  mean change per ordinary step: -0.00075  (median -0.00010)
+    action [0,0]: -0.00031 per step
+    action [0,1]: -0.00169 per step
+    action [1,0]: -0.00012 per step
+    action [1,1]: -0.00107 per step
+  change on food steps:  mean -0.0068  median -0.0001
+  change on death steps: mean +0.4326
+  => steps to drain from 1 to 0 at the average rate: 1339
+
+## 4. What does the agent see just before dying? (obs before the death step)
+  deaths: 47
+  dim 8 before death: quantiles 10/50/90% = [0.02  0.071 0.106]  (all steps: [0.209 0.489 0.95 ])
+  dim 1 before death: quantiles 10/50/90% = [0.748 0.981 1.   ]  (all steps: [0.    0.267 1.   ])
+  deaths with dim 8 in the lowest 5% of all steps: 97.9%
+  deaths with 'danger colour' (dim 4 or 7) on: 8.5%   (base rate 5.1%)
+  deaths with neither: 2.1%
+  steps since last food (or respawn) at death: median 130, quantiles 10/90% [  5.  378.6]
+
+## 5. Death hazard (P(die this step)) vs observation bins
+  dim  1 (deaths per 1000): [0.00,0.16]:   0.0  [0.16,0.38]:   0.0  [0.38,0.72]:   0.6  [0.72,1.00]:   9.2
+  dim  8 (deaths per 1000): [0.00,0.35]:   9.8  [0.35,0.48]:   0.0  [0.48,0.50]:   0.0  [0.50,0.86]:   0.0  [0.86,1.00]:   0.0
+  dim  9 (deaths per 1000): [-0.67,-0.00]:   2.0  [-0.00,0.01]:   2.0  [0.01,0.62]:   1.2  [0.62,1.00]:   2.7
+  dim 10 (deaths per 1000): [0.00,0.02]:   0.7  [0.02,0.04]:   1.2  [0.04,0.12]:   3.9  [0.12,0.46]:   2.9
+  dim 0 on:   74.1  off:   1.9  per 1000   food on:   0.0
+  dim 2 on:   22.1  off:   1.8  per 1000   food on:   4.4
+  dim 3 on:    0.0  off:   2.0  per 1000   food on:   0.0
+  dim 4 on:    0.0  off:   2.0  per 1000   food on:   0.0
+  dim 5 on:   18.8  off:   1.8  per 1000   food on:   0.0
+  dim 6 on:    0.0  off:   2.0  per 1000   food on:   9.6
+  dim 7 on:    3.6  off:   1.9  per 1000   food on:   0.0
+
+## 6. Food rate vs dim 9 (P(food next step) per bin)
+  dim 9 in [-1.00,0.00): n=   109  P(food)    0.0/1000
+  dim 9 in [+0.00,0.00): n= 14223  P(food)    0.0/1000
+  dim 9 in [+0.00,0.25): n=  1943  P(food)    0.0/1000
+  dim 9 in [+0.25,0.50): n=  1976  P(food)    0.0/1000
+  dim 9 in [+0.50,0.75): n=  2094  P(food)    2.4/1000
+  dim 9 in [+0.75,0.90): n=  1620  P(food)   14.2/1000
+  dim 9 in [+0.90,1.01): n=  2035  P(food)   16.2/1000
+  P(food | dim 9 > 0.75) by action:
+    [0,0]: n=  614     9.8/1000
+    [0,1]: n= 1086    23.9/1000
+    [1,0]: n=  990    19.2/1000
+    [1,1]: n=  965     5.2/1000
+  change of dim 9 by action when 0.2 < dim 9 < 0.9 (does an action move toward food?):
+    [0,0]: n= 1448  mean change -0.0039
+    [0,1]: n= 1863  mean change +0.0144
+    [1,0]: n= 1554  mean change -0.0095
+    [1,1]: n= 1201  mean change -0.0055
+  vision changes by action (mean |left-right| asymmetry change), dims (2,5),(3,6),(4,7):
+    [0,0]: (2,5): L +0.0011 R -0.0008  (3,6): L +0.0001 R -0.0002  (4,7): L +0.0006 R +0.0001
+    [0,1]: (2,5): L +0.0015 R +0.0015  (3,6): L -0.0006 R +0.0006  (4,7): L -0.0015 R +0.0166
+    [1,0]: (2,5): L -0.0026 R +0.0005  (3,6): L +0.0003 R -0.0005  (4,7): L +0.0003 R -0.0182
+    [1,1]: (2,5): L -0.0003 R -0.0010  (3,6): L +0.0003 R +0.0003  (4,7): L +0.0000 R -0.0010

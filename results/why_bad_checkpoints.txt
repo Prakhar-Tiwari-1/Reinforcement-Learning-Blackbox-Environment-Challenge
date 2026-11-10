@@ -1,0 +1,16 @@
+policy (live)          steps  rew/1k r=+5/1k died/1k  [0,0] [0,0]|o9>.75 longest [0,0]  o9>.75  o9<.2 P(+5|o9>.85) frozen obs
+co-player 143k         90000   +39.9    10.6    2.60    18%          12%          1781    0.72   0.13         0.16       8.2%
+new run 300k           20000   +37.2    10.9    3.50    17%           9%           509    0.56   0.30         0.20       5.3%
+new run 368k           20000   +35.5    10.0    2.90    16%          10%           346    0.61   0.20         0.17       4.9%
+500k (submission)      75000   +35.3    11.2    4.12    10%           4%            64    0.64   0.18         0.19       0.6%
+new run 266k (BAD)     20000    +8.8     3.1    1.35    49%           9%          1492    0.20   0.09         0.19      38.4%
+co-player 204k (BAD)   20000   +22.8     6.6    2.00    43%          12%          1874    0.40   0.27         0.18      32.4%
+co-player 491k (BAD)   20000   +19.5     6.2    2.30    51%          16%          3416    0.40   0.32         0.17      41.9%
+
+Observation during frozen stretches (obs unchanged >= 20 steps in a row) vs all steps
+co-player 143k         14 stretches | action during them: [0,0] 100% | mean obs o0..o10: 0.00 1.00 0.07 0.36 0.57 0.07 0.50 0.14 0.40 0.57 0.00
+                       o9<0.2 in 21% of them, o9>0.75 in 36%; o1 mean 1.00; o8 mean 0.40
+new run 266k (BAD)     25 stretches | action during them: [0,0] 100% | mean obs o0..o10: 0.00 1.00 0.00 0.00 1.00 0.00 0.96 0.00 0.35 0.51 0.00
+                       o9<0.2 in 0% of them, o9>0.75 in 4%; o1 mean 1.00; o8 mean 0.35
+co-player 491k (BAD)   14 stretches | action during them: [0,0] 100% | mean obs o0..o10: 0.00 1.00 0.00 0.21 0.79 0.00 1.00 0.00 0.40 0.47 0.00
+                       o9<0.2 in 14% of them, o9>0.75 in 7%; o1 mean 1.00; o8 mean 0.40

@@ -1,11 +1,34 @@
 [project]
 name = "rl-challenge"
 version = "0.1.0"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "gymnasium>=1.4.0",
     "numpy>=2.2.6",
     "pettingzoo>=1.27.0",
+    "pzclient @ https://github.com/jeremiedecock/pettingzoo-client/releases/download/v0.4.0/pzclient-0.4.0-py3-none-any.whl",
     "python-dotenv>=1.2.4",
     "torch>=2.14.1",
+    "matplotlib>=3.11.2",
 ]
+
+# CUDA torch (the lab machine has an RTX 4000 Ada). The uv cache and .venv live on /Data,
+# so the multi-GB CUDA wheels stay out of the home quota. Code falls back to CPU if no GPU.
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv]
+# Keep the uv cache off the home directory (quota).
+cache-dir = "/Data/prakhar.tiwari/.cache/uv"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+# E741 (single-letter names such as `l`) is accepted in the short analysis scripts.
+ignore = ["E741"]

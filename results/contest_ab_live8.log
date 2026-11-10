@@ -1,0 +1,14 @@
+round 1 | data/cand/coplay2_500k.pt | final: 10000 steps 529s | reward/1000 +37.5 (+:101 -:26) | missed 0 | think 0.3ms | updates 0
+round 1 | data/cand/coplay_143k.pt:as10 | final: 10000 steps 821s | reward/1000 +44.5 (+:119 -:30) | missed 0 | think 0.3ms | updates 0
+round 1 | data/cand/coplay_143k.pt | final: 10000 steps 432s | reward/1000 +48.0 (+:127 -:32) | missed 0 | think 0.3ms | updates 0
+round 1 | data/cand/coplay2_500k.pt:as10 | final: 10000 steps 434s | reward/1000 +42.0 (+:111 -:27) | missed 0 | think 0.3ms | updates 0
+round 2 | data/cand/coplay2_500k.pt:as10 | final: 10000 steps 608s | reward/1000 +44.5 (+:118 -:29) | missed 0 | think 0.3ms | updates 0
+round 2 | data/cand/coplay_143k.pt | final: 10000 steps 634s | reward/1000 +44.5 (+:112 -:23) | missed 0 | think 0.3ms | updates 0
+round 2 | data/cand/coplay_143k.pt:as10 | final: 10000 steps 515s | reward/1000 +48.0 (+:122 -:27) | missed 0 | think 0.3ms | updates 0
+round 2 | data/cand/coplay2_500k.pt | final: 10000 steps 663s | reward/1000 +37.5 (+:101 -:26) | missed 0 | think 0.3ms | updates 0
+round 3 | data/cand/coplay2_500k.pt | final: 10000 steps 676s | reward/1000 +39.0 (+:105 -:27) | missed 0 | think 0.3ms | updates 0
+round 3 | data/cand/coplay_143k.pt:as10 | final: 10000 steps 633s | reward/1000 +42.5 (+:110 -:26) | missed 0 | think 0.3ms | updates 0
+round 3 | data/cand/coplay_143k.pt | final: 10000 steps 618s | reward/1000 +39.5 (+:100 -:21) | missed 0 | think 0.3ms | updates 0
+round 3 | data/cand/coplay2_500k.pt:as10 | final: 10000 steps 821s | reward/1000 +44.5 (+:116 -:27) | missed 0 | think 0.2ms | updates 0
+### DONE
+agent prakhar.tiwari@polytechnique.edu: recording play_coplay_143k | DDQN True | history 4 | anti-stall 0

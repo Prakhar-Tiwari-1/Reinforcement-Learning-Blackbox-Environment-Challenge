@@ -1,0 +1,5 @@
+                            steps r=+5/1000 died/1000  o9>.75  o9>.9 P(+5|o9>.85,10st)  o3|o6  o1>.9  o4|o7 o8 mean
+LIVE contest (1 agent)       5000      12.0      4.40   0.646  0.567             0.198  0.183  0.321  0.030    0.54
+TRAINING now (4 agents)     20000      30.2      3.30   0.702  0.596             0.424  0.091  0.243  0.022    0.35
+LIVE: 72 stretches with o9>0.75 | mean length 44.8 steps | max o9 in stretch 0.940 | stretches containing r=+5 0.62
+TRAINING: 100 stretches with o9>0.75 | mean length 35.7 steps | max o9 in stretch 0.981 | stretches containing r=+5 0.92

@@ -1,0 +1,9 @@
+checkpoint                       runs   steps reward/1000 sd(run) r=+5/1000 died/1000
+data/cand/ft500_30k.pt             12  120000      +148.7     4.5      31.5      1.76
+data/cand/h8n10_110k.pt             3   30000      +148.5     2.3      30.6      0.87
+models/FINAL_ddqn_500k.pt          22  220000      +148.0     8.0      31.6      2.01
+data/ddqn_avg450_500.pt             4   40000      +146.4     2.8      30.8      1.50
+data/cand/ft500_90k.pt              3   30000      +145.3     7.3      31.0      1.93
+data/cand/h8n10_41k.pt              3   30000      +144.2     4.8      30.0      1.17
+data/cand/ft500_51k.pt              3   30000      +132.5    20.1      28.3      1.80
+data/cand/h8n10_61k.pt              3   30000      +119.8    35.1      24.8      0.87

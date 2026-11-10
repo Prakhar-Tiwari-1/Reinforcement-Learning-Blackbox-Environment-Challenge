@@ -1,0 +1,95 @@
+### 04:29 START .venv/bin/python prakhar.tiwari.py --mode training --load data/sub_long.pt --steps 200000 --lr 1e-4 --ent-coef 0.005 --save data/sub_fine.pt --log-every 4096
+agent agent_0: obs Box(0.0, 1.0, (11,), float32) act MultiBinary(2) | pretrained True | learning True (lr 0.0001) | hidden units 128
+4096 steps 93s | reward/1000 +44.3 (+:173 -:28) | missed 0 | think 0.3ms | updates 15
+8192 steps 187s | reward/1000 +41.5 (+:328 -:56) | missed 0 | think 0.3ms | updates 31
+12288 steps 278s | reward/1000 +41.8 (+:487 -:76) | missed 0 | think 0.3ms | updates 47
+16384 steps 370s | reward/1000 +42.8 (+:659 -:99) | missed 0 | think 0.3ms | updates 63
+20480 steps 460s | reward/1000 +41.3 (+:811 -:135) | missed 0 | think 0.3ms | updates 79
+24576 steps 568s | reward/1000 +40.9 (+:961 -:158) | missed 0 | think 0.3ms | updates 95
+28672 steps 659s | reward/1000 +41.9 (+:1149 -:189) | missed 0 | think 0.3ms | updates 111
+32768 steps 749s | reward/1000 +41.4 (+:1297 -:212) | missed 0 | think 0.3ms | updates 127
+36864 steps 844s | reward/1000 +41.3 (+:1454 -:237) | missed 0 | think 0.5ms | updates 143
+40960 steps 936s | reward/1000 +41.4 (+:1614 -:257) | missed 0 | think 0.5ms | updates 159
+45056 steps 1030s | reward/1000 +42.2 (+:1796 -:277) | missed 0 | think 0.5ms | updates 175
+49152 steps 1123s | reward/1000 +41.8 (+:1943 -:299) | missed 0 | think 0.5ms | updates 191
+53248 steps 1216s | reward/1000 +41.9 (+:2124 -:342) | missed 0 | think 0.5ms | updates 207
+57344 steps 1308s | reward/1000 +42.2 (+:2296 -:362) | missed 0 | think 0.3ms | updates 223
+61440 steps 1400s | reward/1000 +41.7 (+:2440 -:394) | missed 0 | think 0.4ms | updates 239
+65536 steps 1490s | reward/1000 +41.2 (+:2586 -:429) | missed 0 | think 0.5ms | updates 255
+69632 steps 1580s | reward/1000 +41.1 (+:2744 -:456) | missed 0 | think 0.5ms | updates 271
+73728 steps 1671s | reward/1000 +40.8 (+:2876 -:472) | missed 0 | think 0.4ms | updates 287
+77824 steps 1765s | reward/1000 +40.7 (+:3042 -:508) | missed 0 | think 0.5ms | updates 303
+81920 steps 1857s | reward/1000 +40.9 (+:3206 -:531) | missed 0 | think 0.5ms | updates 319
+86016 steps 2007s | reward/1000 +41.1 (+:3378 -:554) | missed 0 | think 0.4ms | updates 335
+90112 steps 2105s | reward/1000 +41.1 (+:3549 -:587) | missed 0 | think 0.4ms | updates 351
+94208 steps 2196s | reward/1000 +41.6 (+:3737 -:605) | missed 0 | think 0.4ms | updates 367
+98304 steps 2286s | reward/1000 +41.4 (+:3882 -:627) | missed 0 | think 0.7ms | updates 383
+102400 steps 2379s | reward/1000 +41.9 (+:4085 -:655) | missed 0 | think 0.5ms | updates 399
+106496 steps 2472s | reward/1000 +42.3 (+:4277 -:675) | missed 0 | think 0.5ms | updates 415
+110592 steps 2568s | reward/1000 +42.6 (+:4458 -:696) | missed 0 | think 0.5ms | updates 431
+114688 steps 2662s | reward/1000 +42.5 (+:4617 -:722) | missed 0 | think 0.5ms | updates 447
+118784 steps 2746s | reward/1000 +42.7 (+:4795 -:745) | missed 0 | think 0.5ms | updates 463
+122880 steps 2828s | reward/1000 +42.8 (+:4978 -:774) | missed 0 | think 0.5ms | updates 479
+126976 steps 2910s | reward/1000 +42.8 (+:5149 -:804) | missed 0 | think 0.4ms | updates 495
+131072 steps 2991s | reward/1000 +42.9 (+:5325 -:830) | missed 0 | think 0.5ms | updates 511
+135168 steps 3071s | reward/1000 +43.1 (+:5506 -:857) | missed 0 | think 0.6ms | updates 527
+139264 steps 3152s | reward/1000 +43.2 (+:5696 -:893) | missed 0 | think 0.5ms | updates 543
+143360 steps 3232s | reward/1000 +43.1 (+:5848 -:908) | missed 0 | think 0.3ms | updates 559
+147456 steps 3315s | reward/1000 +43.0 (+:6010 -:941) | missed 0 | think 0.5ms | updates 575
+151552 steps 3396s | reward/1000 +43.1 (+:6188 -:966) | missed 0 | think 0.5ms | updates 591
+155648 steps 3477s | reward/1000 +43.3 (+:6375 -:991) | missed 0 | think 0.3ms | updates 607
+159744 steps 3553s | reward/1000 +43.4 (+:6546 -:1011) | missed 0 | think 0.3ms | updates 623
+163840 steps 3624s | reward/1000 +43.2 (+:6694 -:1037) | missed 0 | think 0.3ms | updates 639
+167936 steps 3694s | reward/1000 +43.2 (+:6849 -:1057) | missed 0 | think 0.3ms | updates 655
+172032 steps 3765s | reward/1000 +43.3 (+:7029 -:1078) | missed 0 | think 0.4ms | updates 671
+176128 steps 3836s | reward/1000 +43.4 (+:7228 -:1116) | missed 0 | think 0.3ms | updates 687
+180224 steps 3901s | reward/1000 +43.3 (+:7377 -:1140) | missed 0 | think 0.3ms | updates 703
+184320 steps 3967s | reward/1000 +43.4 (+:7549 -:1163) | missed 0 | think 0.3ms | updates 719
+188416 steps 4034s | reward/1000 +43.3 (+:7710 -:1189) | missed 0 | think 0.4ms | updates 735
+192512 steps 4099s | reward/1000 +43.3 (+:7876 -:1211) | missed 0 | think 0.3ms | updates 751
+196608 steps 4163s | reward/1000 +43.4 (+:8037 -:1228) | missed 0 | think 0.4ms | updates 767
+final: 200000 steps 4217s | reward/1000 +43.4 (+:8180 -:1246) | missed 0 | think 0.6ms | updates 781
+### 05:39 END (exit 0)
+### 05:39 START .venv/bin/python src/explore/evaluate.py --name round4_s61 --steps 8000 --seed 61 --policies torch:data/sub_fine.pt torch:data/sub_long.pt torch:data/ppo_cont.pt random
+1000/8000 16s reward [ 55.  60.  45. -10.] deaths [2 1 2 4]
+2000/8000 31s reward [120.  95.  90. -15.] deaths [2 2 2 7]
+3000/8000 46s reward [165. 135. 135. -40.] deaths [ 3  3  2 13]
+4000/8000 61s reward [215. 175. 170. -60.] deaths [ 4  4  3 17]
+5000/8000 77s reward [265. 220. 210. -80.] deaths [ 6  5  5 21]
+6000/8000 92s reward [ 320.  240.  220. -110.] deaths [ 7  8  5 27]
+7000/8000 108s reward [ 365.  275.  240. -115.] deaths [ 9  9  8 28]
+8000/8000 123s reward [ 405.  265.  280. -125.] deaths [11 11  9 30]
+{"run": "round4_s61", "mode": "training", "seed": 61, "agent": "agent_0", "policy": "torch:data/sub_fine.pt", "think_ms": 0.20485928251127916, "steps": 8000, "reward_per_1000": 50.625, "food_per_1000": 11.5, "deaths_per_1000": 1.375, "food": 92, "deaths": 11, "food_per_life": 8.363636363636363}
+{"run": "round4_s61", "mode": "training", "seed": 61, "agent": "agent_1", "policy": "torch:data/sub_long.pt", "think_ms": 0.20485928251127916, "steps": 8000, "reward_per_1000": 33.125, "food_per_1000": 8.0, "deaths_per_1000": 1.375, "food": 64, "deaths": 11, "food_per_life": 5.818181818181818}
+{"run": "round4_s61", "mode": "training", "seed": 61, "agent": "agent_2", "policy": "torch:data/ppo_cont.pt", "think_ms": 0.20485928251127916, "steps": 8000, "reward_per_1000": 35.0, "food_per_1000": 8.125, "deaths_per_1000": 1.125, "food": 65, "deaths": 9, "food_per_life": 7.222222222222222}
+{"run": "round4_s61", "mode": "training", "seed": 61, "agent": "agent_3", "policy": "random", "think_ms": 0.20485928251127916, "steps": 8000, "reward_per_1000": -15.625, "food_per_1000": 0.625, "deaths_per_1000": 3.75, "food": 5, "deaths": 30, "food_per_life": 0.16666666666666666}
+### 05:41 END (exit 0)
+### 05:41 START .venv/bin/python src/explore/evaluate.py --name round4_s62 --steps 8000 --seed 62 --policies torch:data/sub_fine.pt torch:data/sub_long.pt torch:data/ppo_cont.pt random
+1000/8000 16s reward [ 35.  60.  25. -10.] deaths [6 1 3 5]
+2000/8000 32s reward [ 80. 105.  65. -20.] deaths [7 2 3 7]
+3000/8000 47s reward [130. 110.  90. -50.] deaths [ 9  4  4 15]
+4000/8000 62s reward [170. 165. 110. -85.] deaths [13  4  7 24]
+5000/8000 78s reward [ 225.  200.  150. -110.] deaths [17  5  9 29]
+6000/8000 94s reward [ 280.  245.  180. -120.] deaths [18  6 10 32]
+7000/8000 109s reward [ 330.  295.  215. -145.] deaths [19  7 10 38]
+8000/8000 125s reward [ 390.  310.  245. -155.] deaths [21 10 11 41]
+{"run": "round4_s62", "mode": "training", "seed": 62, "agent": "agent_0", "policy": "torch:data/sub_fine.pt", "think_ms": 0.2297403176116859, "steps": 8000, "reward_per_1000": 48.75, "food_per_1000": 12.375, "deaths_per_1000": 2.625, "food": 99, "deaths": 21, "food_per_life": 4.714285714285714}
+{"run": "round4_s62", "mode": "training", "seed": 62, "agent": "agent_1", "policy": "torch:data/sub_long.pt", "think_ms": 0.2297403176116859, "steps": 8000, "reward_per_1000": 38.75, "food_per_1000": 9.0, "deaths_per_1000": 1.25, "food": 72, "deaths": 10, "food_per_life": 7.2}
+{"run": "round4_s62", "mode": "training", "seed": 62, "agent": "agent_2", "policy": "torch:data/ppo_cont.pt", "think_ms": 0.2297403176116859, "steps": 8000, "reward_per_1000": 30.625, "food_per_1000": 7.5, "deaths_per_1000": 1.375, "food": 60, "deaths": 11, "food_per_life": 5.454545454545454}
+{"run": "round4_s62", "mode": "training", "seed": 62, "agent": "agent_3", "policy": "random", "think_ms": 0.2297403176116859, "steps": 8000, "reward_per_1000": -19.375, "food_per_1000": 1.25, "deaths_per_1000": 5.125, "food": 10, "deaths": 41, "food_per_life": 0.24390243902439024}
+### 05:43 END (exit 0)
+### 05:43 START .venv/bin/python src/explore/evaluate.py --name round4_s63 --steps 8000 --seed 63 --policies torch:data/sub_fine.pt torch:data/sub_long.pt torch:data/ppo_cont.pt random
+1000/8000 17s reward [ 45.  55.  30. -10.] deaths [2 1 3 2]
+2000/8000 32s reward [ 60.  90.  30. -30.] deaths [5 2 4 6]
+3000/8000 48s reward [110. 130.  40. -30.] deaths [7 3 6 7]
+4000/8000 64s reward [175. 160.  80. -50.] deaths [ 8  4  8 11]
+5000/8000 80s reward [245. 210. 120. -70.] deaths [ 8  5  9 17]
+6000/8000 95s reward [295. 245. 140. -90.] deaths [ 9  6 11 22]
+7000/8000 111s reward [ 330.  270.  160. -120.] deaths [10 10 12 28]
+8000/8000 126s reward [ 355.  280.  190. -155.] deaths [13 14 13 35]
+{"run": "round4_s63", "mode": "training", "seed": 63, "agent": "agent_0", "policy": "torch:data/sub_fine.pt", "think_ms": 0.22691948290048458, "steps": 8000, "reward_per_1000": 44.375, "food_per_1000": 10.5, "deaths_per_1000": 1.625, "food": 84, "deaths": 13, "food_per_life": 6.461538461538462}
+{"run": "round4_s63", "mode": "training", "seed": 63, "agent": "agent_1", "policy": "torch:data/sub_long.pt", "think_ms": 0.22691948290048458, "steps": 8000, "reward_per_1000": 35.0, "food_per_1000": 8.75, "deaths_per_1000": 1.75, "food": 70, "deaths": 14, "food_per_life": 5.0}
+{"run": "round4_s63", "mode": "training", "seed": 63, "agent": "agent_2", "policy": "torch:data/ppo_cont.pt", "think_ms": 0.22691948290048458, "steps": 8000, "reward_per_1000": 23.75, "food_per_1000": 6.375, "deaths_per_1000": 1.625, "food": 51, "deaths": 13, "food_per_life": 3.923076923076923}
+{"run": "round4_s63", "mode": "training", "seed": 63, "agent": "agent_3", "policy": "random", "think_ms": 0.22691948290048458, "steps": 8000, "reward_per_1000": -19.375, "food_per_1000": 0.5, "deaths_per_1000": 4.375, "food": 4, "deaths": 35, "food_per_life": 0.11428571428571428}
+### 05:45 END (exit 0)
+### OVERNIGHT2_DONE

@@ -1,0 +1,13 @@
+### data/sub_fine_snap73728.pt rep 1
+final: 8000 steps 155s | reward/1000 +43.1 (+:86 -:17) | missed 0 | think 0.3ms | updates 0
+### data/sub_fine_snap73728.pt rep 2
+final: 8000 steps 222s | reward/1000 +50.6 (+:94 -:13) | missed 0 | think 0.4ms | updates 0
+### data/sub_fine_snap143360.pt rep 1
+final: 8000 steps 153s | reward/1000 +46.2 (+:89 -:15) | missed 0 | think 0.4ms | updates 0
+### data/sub_fine_snap143360.pt rep 2
+final: 8000 steps 152s | reward/1000 +35.0 (+:74 -:18) | missed 0 | think 0.2ms | updates 0
+### data/sub_fine_snap196608.pt rep 1
+final: 8000 steps 121s | reward/1000 +49.4 (+:85 -:6) | missed 0 | think 0.4ms | updates 0
+### data/sub_fine_snap196608.pt rep 2
+final: 8000 steps 120s | reward/1000 +52.5 (+:87 -:3) | missed 0 | think 0.3ms | updates 0
+### SNAPSHOTS_DONE

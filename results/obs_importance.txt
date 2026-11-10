@@ -1,0 +1,23 @@
+753150 agent-steps
+
+## 1a. Leave-one-out: AUC with all dims, and AUC drop when one dim (value + trend) is removed
+  target       all 11    -d0     -d1     -d2     -d3     -d4     -d5     -d6     -d7     -d8     -d9     -d10 
+  food<=10      0.954   -0.000  +0.001  -0.000  +0.000  +0.000  +0.000  +0.002  +0.000  +0.002  +0.093  +0.012
+  damage<=10    0.915   +0.001  +0.058  +0.002  +0.003  +0.004  +0.002  +0.004  +0.002  +0.010  +0.002  +0.016
+
+## 1b. Greedy forward selection: best k dims (value + trend) and the AUC they reach
+  food<=10    +d9 -> 0.935   +d10 -> 0.948   +d8 -> 0.951   +d3 -> 0.952   +d6 -> 0.953   +d1 -> 0.954
+  damage<=10  +d1 -> 0.853   +d10 -> 0.886   +d8 -> 0.900   +d7 -> 0.905   +d6 -> 0.907   +d9 -> 0.908
+
+## 2. How much the trained policy (data/sub_fine.pt) uses each input
+  d9   mean |change of action probability| 0.1462   share 28.0%
+  d10  mean |change of action probability| 0.1457   share 27.9%
+  d7   mean |change of action probability| 0.1188   share 22.7%
+  d1   mean |change of action probability| 0.0501   share  9.6%
+  d8   mean |change of action probability| 0.0254   share  4.9%
+  d3   mean |change of action probability| 0.0138   share  2.6%
+  d4   mean |change of action probability| 0.0095   share  1.8%
+  d6   mean |change of action probability| 0.0069   share  1.3%
+  d5   mean |change of action probability| 0.0032   share  0.6%
+  d2   mean |change of action probability| 0.0017   share  0.3%
+  d0   mean |change of action probability| 0.0013   share  0.2%

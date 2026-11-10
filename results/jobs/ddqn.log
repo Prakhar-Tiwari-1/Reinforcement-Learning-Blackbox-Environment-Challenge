@@ -1,0 +1,297 @@
+pre-filled the buffer with 1000000 recorded transitions in 13s
+NEW run ddqn: Q-network 46-64-64-4 (128 hidden units), dueling, device cuda
+/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/src/train/ddqn.py:251: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss), float(q.mean())
+{"step": 4096, "reward_per_1000": -7.93, "food_per_1000": 1.34, "deaths_per_1000": 2.93, "damage_per_1000": 27.16, "eps": 0.2962, "loss": 0.02862, "mean_q": -0.216, "updates": 8192, "buffer": 1000000, "steps_per_s": 35.7, "time": "2026-10-16 17:01:49", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 8192, "reward_per_1000": -4.88, "food_per_1000": 1.83, "deaths_per_1000": 2.87, "damage_per_1000": 22.09, "eps": 0.2924, "loss": 0.02425, "mean_q": -0.144, "updates": 16384, "buffer": 1000000, "steps_per_s": 30.8, "time": "2026-10-16 17:04:02", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 12288, "reward_per_1000": -1.22, "food_per_1000": 2.44, "deaths_per_1000": 2.69, "damage_per_1000": 27.34, "eps": 0.2885, "loss": 0.0246, "mean_q": -0.098, "updates": 24576, "buffer": 1000000, "steps_per_s": 31.7, "time": "2026-10-16 17:06:11", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 16384, "reward_per_1000": 9.46, "food_per_1000": 4.21, "deaths_per_1000": 2.32, "damage_per_1000": 26.06, "eps": 0.2847, "loss": 0.02427, "mean_q": -0.055, "updates": 32768, "buffer": 1000000, "steps_per_s": 39.9, "time": "2026-10-16 17:07:54", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 20480, "reward_per_1000": 3.05, "food_per_1000": 2.99, "deaths_per_1000": 2.38, "damage_per_1000": 27.53, "eps": 0.2809, "loss": 0.02398, "mean_q": -0.031, "updates": 40960, "buffer": 1000000, "steps_per_s": 37.9, "time": "2026-10-16 17:09:42", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 24576, "reward_per_1000": 5.19, "food_per_1000": 4.52, "deaths_per_1000": 3.48, "damage_per_1000": 24.66, "eps": 0.2771, "loss": 0.02436, "mean_q": 0.005, "updates": 49152, "buffer": 1000000, "steps_per_s": 32.8, "time": "2026-10-16 17:11:47", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 28672, "reward_per_1000": 10.07, "food_per_1000": 5.13, "deaths_per_1000": 3.11, "damage_per_1000": 22.22, "eps": 0.2732, "loss": 0.02473, "mean_q": 0.038, "updates": 57344, "buffer": 1000000, "steps_per_s": 30.6, "time": "2026-10-16 17:14:01", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 32768, "reward_per_1000": 13.73, "food_per_1000": 4.7, "deaths_per_1000": 1.95, "damage_per_1000": 19.78, "eps": 0.2694, "loss": 0.02465, "mean_q": 0.057, "updates": 65536, "buffer": 1000000, "steps_per_s": 30.1, "time": "2026-10-16 17:16:17", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 36864, "reward_per_1000": 11.9, "food_per_1000": 5.31, "deaths_per_1000": 2.93, "damage_per_1000": 26.43, "eps": 0.2656, "loss": 0.02469, "mean_q": 0.059, "updates": 73728, "buffer": 1000000, "steps_per_s": 29.7, "time": "2026-10-16 17:18:35", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 40960, "reward_per_1000": 16.78, "food_per_1000": 5.13, "deaths_per_1000": 1.83, "damage_per_1000": 19.9, "eps": 0.2618, "loss": 0.02465, "mean_q": 0.06, "updates": 81920, "buffer": 1000000, "steps_per_s": 30.0, "time": "2026-10-16 17:20:51", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 45056, "reward_per_1000": 12.21, "food_per_1000": 5.13, "deaths_per_1000": 2.69, "damage_per_1000": 22.03, "eps": 0.2579, "loss": 0.02395, "mean_q": 0.076, "updates": 90112, "buffer": 1000000, "steps_per_s": 30.2, "time": "2026-10-16 17:23:07", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 49152, "reward_per_1000": 16.48, "food_per_1000": 5.92, "deaths_per_1000": 2.62, "damage_per_1000": 23.25, "eps": 0.2541, "loss": 0.02397, "mean_q": 0.091, "updates": 98304, "buffer": 1000000, "steps_per_s": 28.6, "time": "2026-10-16 17:25:30", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 53248, "reward_per_1000": 11.6, "food_per_1000": 4.94, "deaths_per_1000": 2.62, "damage_per_1000": 21.48, "eps": 0.2503, "loss": 0.0242, "mean_q": 0.104, "updates": 106496, "buffer": 1000000, "steps_per_s": 25.9, "time": "2026-10-16 17:28:08", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 57344, "reward_per_1000": 22.58, "food_per_1000": 7.02, "deaths_per_1000": 2.5, "damage_per_1000": 23.25, "eps": 0.2465, "loss": 0.02509, "mean_q": 0.126, "updates": 114688, "buffer": 1000000, "steps_per_s": 25.9, "time": "2026-10-16 17:30:46", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 61440, "reward_per_1000": 18.01, "food_per_1000": 5.74, "deaths_per_1000": 2.14, "damage_per_1000": 19.17, "eps": 0.2427, "loss": 0.02506, "mean_q": 0.152, "updates": 122880, "buffer": 1000000, "steps_per_s": 28.3, "time": "2026-10-16 17:33:11", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 65536, "reward_per_1000": 17.7, "food_per_1000": 5.98, "deaths_per_1000": 2.44, "damage_per_1000": 21.3, "eps": 0.2388, "loss": 0.02567, "mean_q": 0.199, "updates": 131072, "buffer": 1000000, "steps_per_s": 32.2, "time": "2026-10-16 17:35:18", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 69632, "reward_per_1000": 24.72, "food_per_1000": 7.75, "deaths_per_1000": 2.81, "damage_per_1000": 23.07, "eps": 0.235, "loss": 0.02574, "mean_q": 0.214, "updates": 139264, "buffer": 1000000, "steps_per_s": 32.1, "time": "2026-10-16 17:37:26", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 73728, "reward_per_1000": 24.11, "food_per_1000": 6.47, "deaths_per_1000": 1.65, "damage_per_1000": 25.15, "eps": 0.2312, "loss": 0.02605, "mean_q": 0.222, "updates": 147456, "buffer": 1000000, "steps_per_s": 35.4, "time": "2026-10-16 17:39:21", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 77824, "reward_per_1000": 25.94, "food_per_1000": 7.69, "deaths_per_1000": 2.5, "damage_per_1000": 24.35, "eps": 0.2274, "loss": 0.02656, "mean_q": 0.244, "updates": 155648, "buffer": 1000000, "steps_per_s": 34.9, "time": "2026-10-16 17:41:19", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 81920, "reward_per_1000": 24.41, "food_per_1000": 7.32, "deaths_per_1000": 2.44, "damage_per_1000": 22.16, "eps": 0.2235, "loss": 0.02662, "mean_q": 0.246, "updates": 163840, "buffer": 1000000, "steps_per_s": 35.0, "time": "2026-10-16 17:43:16", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 86016, "reward_per_1000": 20.14, "food_per_1000": 7.08, "deaths_per_1000": 3.05, "damage_per_1000": 24.29, "eps": 0.2197, "loss": 0.0263, "mean_q": 0.253, "updates": 172032, "buffer": 1000000, "steps_per_s": 37.0, "time": "2026-10-16 17:45:06", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 90112, "reward_per_1000": 28.38, "food_per_1000": 7.75, "deaths_per_1000": 2.08, "damage_per_1000": 23.74, "eps": 0.2159, "loss": 0.02691, "mean_q": 0.274, "updates": 180224, "buffer": 1000000, "steps_per_s": 41.9, "time": "2026-10-16 17:46:44", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 94208, "reward_per_1000": 23.19, "food_per_1000": 6.9, "deaths_per_1000": 2.26, "damage_per_1000": 24.96, "eps": 0.2121, "loss": 0.02621, "mean_q": 0.278, "updates": 188416, "buffer": 1000000, "steps_per_s": 37.6, "time": "2026-10-16 17:48:33", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 98304, "reward_per_1000": 22.89, "food_per_1000": 6.9, "deaths_per_1000": 2.32, "damage_per_1000": 29.05, "eps": 0.2083, "loss": 0.02642, "mean_q": 0.286, "updates": 196608, "buffer": 1000000, "steps_per_s": 38.0, "time": "2026-10-16 17:50:21", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 102400, "reward_per_1000": 21.67, "food_per_1000": 7.2, "deaths_per_1000": 2.87, "damage_per_1000": 24.05, "eps": 0.2044, "loss": 0.02702, "mean_q": 0.319, "updates": 204800, "buffer": 1000000, "steps_per_s": 42.3, "time": "2026-10-16 17:51:58", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 106496, "reward_per_1000": 36.62, "food_per_1000": 9.64, "deaths_per_1000": 2.38, "damage_per_1000": 20.63, "eps": 0.2006, "loss": 0.0273, "mean_q": 0.335, "updates": 212992, "buffer": 1000000, "steps_per_s": 43.2, "time": "2026-10-16 17:53:33", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 110592, "reward_per_1000": 25.02, "food_per_1000": 8.3, "deaths_per_1000": 3.36, "damage_per_1000": 23.19, "eps": 0.1968, "loss": 0.0269, "mean_q": 0.368, "updates": 221184, "buffer": 1000000, "steps_per_s": 42.7, "time": "2026-10-16 17:55:08", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 114688, "reward_per_1000": 38.15, "food_per_1000": 9.95, "deaths_per_1000": 2.32, "damage_per_1000": 27.77, "eps": 0.193, "loss": 0.02758, "mean_q": 0.378, "updates": 229376, "buffer": 1000000, "steps_per_s": 42.9, "time": "2026-10-16 17:56:44", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 118784, "reward_per_1000": 27.47, "food_per_1000": 8.18, "deaths_per_1000": 2.69, "damage_per_1000": 24.72, "eps": 0.1891, "loss": 0.02699, "mean_q": 0.369, "updates": 237568, "buffer": 1000000, "steps_per_s": 43.8, "time": "2026-10-16 17:58:17", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 122880, "reward_per_1000": 25.94, "food_per_1000": 8.18, "deaths_per_1000": 2.99, "damage_per_1000": 22.22, "eps": 0.1853, "loss": 0.02764, "mean_q": 0.377, "updates": 245760, "buffer": 1000000, "steps_per_s": 46.4, "time": "2026-10-16 17:59:46", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 126976, "reward_per_1000": 33.26, "food_per_1000": 8.91, "deaths_per_1000": 2.32, "damage_per_1000": 19.47, "eps": 0.1815, "loss": 0.02816, "mean_q": 0.38, "updates": 253952, "buffer": 1000000, "steps_per_s": 46.2, "time": "2026-10-16 18:01:14", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 131072, "reward_per_1000": 33.57, "food_per_1000": 9.34, "deaths_per_1000": 2.62, "damage_per_1000": 26.37, "eps": 0.1777, "loss": 0.0277, "mean_q": 0.401, "updates": 262144, "buffer": 1000000, "steps_per_s": 47.7, "time": "2026-10-16 18:02:40", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 135168, "reward_per_1000": 35.1, "food_per_1000": 9.34, "deaths_per_1000": 2.32, "damage_per_1000": 32.29, "eps": 0.1738, "loss": 0.02778, "mean_q": 0.404, "updates": 270336, "buffer": 1000000, "steps_per_s": 45.0, "time": "2026-10-16 18:04:11", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 139264, "reward_per_1000": 36.62, "food_per_1000": 9.77, "deaths_per_1000": 2.44, "damage_per_1000": 28.69, "eps": 0.17, "loss": 0.02776, "mean_q": 0.415, "updates": 278528, "buffer": 1000000, "steps_per_s": 41.9, "time": "2026-10-16 18:05:49", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 143360, "reward_per_1000": 38.45, "food_per_1000": 9.34, "deaths_per_1000": 1.65, "damage_per_1000": 24.17, "eps": 0.1662, "loss": 0.02816, "mean_q": 0.441, "updates": 286720, "buffer": 1000000, "steps_per_s": 41.7, "time": "2026-10-16 18:07:27", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 147456, "reward_per_1000": 34.79, "food_per_1000": 9.52, "deaths_per_1000": 2.56, "damage_per_1000": 27.77, "eps": 0.1624, "loss": 0.02781, "mean_q": 0.466, "updates": 294912, "buffer": 1000000, "steps_per_s": 21.9, "time": "2026-10-16 18:10:34", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 151552, "reward_per_1000": 40.89, "food_per_1000": 10.5, "deaths_per_1000": 2.32, "damage_per_1000": 28.2, "eps": 0.1586, "loss": 0.02858, "mean_q": 0.473, "updates": 303104, "buffer": 1000000, "steps_per_s": 19.6, "time": "2026-10-16 18:14:03", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 155648, "reward_per_1000": 38.45, "food_per_1000": 9.77, "deaths_per_1000": 2.08, "damage_per_1000": 28.75, "eps": 0.1547, "loss": 0.02908, "mean_q": 0.488, "updates": 311296, "buffer": 1000000, "steps_per_s": 19.5, "time": "2026-10-16 18:17:34", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 159744, "reward_per_1000": 48.22, "food_per_1000": 12.51, "deaths_per_1000": 2.87, "damage_per_1000": 27.59, "eps": 0.1509, "loss": 0.0294, "mean_q": 0.531, "updates": 319488, "buffer": 1000000, "steps_per_s": 19.5, "time": "2026-10-16 18:21:04", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 163840, "reward_per_1000": 47.3, "food_per_1000": 11.9, "deaths_per_1000": 2.44, "damage_per_1000": 24.11, "eps": 0.1471, "loss": 0.02889, "mean_q": 0.531, "updates": 327680, "buffer": 1000000, "steps_per_s": 19.7, "time": "2026-10-16 18:24:32", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 167936, "reward_per_1000": 41.81, "food_per_1000": 10.56, "deaths_per_1000": 2.2, "damage_per_1000": 31.13, "eps": 0.1433, "loss": 0.0282, "mean_q": 0.529, "updates": 335872, "buffer": 1000000, "steps_per_s": 20.4, "time": "2026-10-16 18:27:53", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 172032, "reward_per_1000": 43.33, "food_per_1000": 11.54, "deaths_per_1000": 2.87, "damage_per_1000": 28.93, "eps": 0.1394, "loss": 0.0283, "mean_q": 0.527, "updates": 344064, "buffer": 1000000, "steps_per_s": 20.3, "time": "2026-10-16 18:31:14", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 176128, "reward_per_1000": 41.5, "food_per_1000": 10.44, "deaths_per_1000": 2.14, "damage_per_1000": 28.99, "eps": 0.1356, "loss": 0.02932, "mean_q": 0.52, "updates": 352256, "buffer": 1000000, "steps_per_s": 18.9, "time": "2026-10-16 18:34:51", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 180224, "reward_per_1000": 45.17, "food_per_1000": 11.47, "deaths_per_1000": 2.44, "damage_per_1000": 29.6, "eps": 0.1318, "loss": 0.03039, "mean_q": 0.552, "updates": 360448, "buffer": 1000000, "steps_per_s": 19.3, "time": "2026-10-16 18:38:22", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 184320, "reward_per_1000": 48.22, "food_per_1000": 12.51, "deaths_per_1000": 2.93, "damage_per_1000": 30.94, "eps": 0.128, "loss": 0.0317, "mean_q": 0.581, "updates": 368640, "buffer": 1000000, "steps_per_s": 19.9, "time": "2026-10-16 18:41:48", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+18:43:33 server problem (ServerUnreachableError): saving, retry in 30 s
+The environment could not be closed cleanly: POST /close could not reach the server at https://csc53439ep.jdhp.org/training/api: HTTPSConnectionPool(host='csc53439ep.jdhp.org', port=443): Max retries exceeded with url: /training/api/close (Caused by ConnectTimeoutError(<HTTPSConnection(host='csc53439ep.jdhp.org', port=443) at 0x7fb909e07560>, 'Connection to csc53439ep.jdhp.org timed out. (connect timeout=60.0)'))
+STOPPED at step 185216; best [[42.968, 'best_00184320.pt'], [38.665000000000006, 'best_00163840.pt'], [33.019999999999996, 'best_00143360.pt']]
+Traceback (most recent call last):
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/eleves-b/2025/prakhar.tiwari/miniconda3/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 542, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 373, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='csc53439ep.jdhp.org', port=443): Read timed out. (read timeout=60.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/pzclient/remote_env.py", line 595, in _request
+    response = self._session.request(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='csc53439ep.jdhp.org', port=443): Read timed out. (read timeout=60.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/src/train/ddqn.py", line 280, in main
+    obs2, rew, _, _, infos = env.step(acts)
+                             ^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/pzclient/remote_env.py", line 380, in step
+    response = self._request(
+               ^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/pzclient/remote_env.py", line 606, in _request
+    raise ServerUnreachableError(
+pzclient.exceptions.ServerUnreachableError: POST /step could not reach the server at https://csc53439ep.jdhp.org/training/api: HTTPSConnectionPool(host='csc53439ep.jdhp.org', port=443): Read timed out. (read timeout=60.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPSConnection(host='csc53439ep.jdhp.org', port=443) at 0x7fb909e438c0>, 'Connection to csc53439ep.jdhp.org timed out. (connect timeout=60.0)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='csc53439ep.jdhp.org', port=443): Max retries exceeded with url: /training/api/env (Caused by ConnectTimeoutError(<HTTPSConnection(host='csc53439ep.jdhp.org', port=443) at 0x7fb909e438c0>, 'Connection to csc53439ep.jdhp.org timed out. (connect timeout=60.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/pzclient/remote_env.py", line 595, in _request
+    response = self._session.request(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/requests/adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='csc53439ep.jdhp.org', port=443): Max retries exceeded with url: /training/api/env (Caused by ConnectTimeoutError(<HTTPSConnection(host='csc53439ep.jdhp.org', port=443) at 0x7fb909e438c0>, 'Connection to csc53439ep.jdhp.org timed out. (connect timeout=60.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/src/train/ddqn.py", line 357, in <module>
+    main()
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/src/train/ddqn.py", line 344, in main
+    env = sub.make_env(url)
+          ^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/prakhar.tiwari.py", line 433, in make_env
+    return pettingzoo.make("parallel", "csc53439ep/csc53439ep-remote-v1", **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/pettingzoo/env_registry/registration.py", line 140, in make
+    env = creator(**merged_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/pzclient/remote_env.py", line 705, in alife_parallel_env
+    return RemoteParallelEnv(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/pzclient/remote_env.py", line 218, in __init__
+    description = self._request("GET", "/env")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/.venv/lib/python3.12/site-packages/pzclient/remote_env.py", line 606, in _request
+    raise ServerUnreachableError(
+pzclient.exceptions.ServerUnreachableError: GET /env could not reach the server at https://csc53439ep.jdhp.org/training/api: HTTPSConnectionPool(host='csc53439ep.jdhp.org', port=443): Max retries exceeded with url: /training/api/env (Caused by ConnectTimeoutError(<HTTPSConnection(host='csc53439ep.jdhp.org', port=443) at 0x7fb909e438c0>, 'Connection to csc53439ep.jdhp.org timed out. (connect timeout=60.0)'))
+RESUMED ddqn at step 185216 (buffer 1000000)
+/Data/prakhar.tiwari/Reinforcement_Learning_Challenge/src/train/ddqn.py:251: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  return float(loss), float(q.mean())
+{"step": 188416, "reward_per_1000": 57.81, "food_per_1000": 14.45, "deaths_per_1000": 2.89, "damage_per_1000": 32.97, "eps": 0.1241, "loss": 0.03025, "mean_q": 0.61, "updates": 376832, "buffer": 1000000, "steps_per_s": 18.6, "time": "2026-10-16 18:49:58", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 192512, "reward_per_1000": 49.44, "food_per_1000": 12.94, "deaths_per_1000": 3.05, "damage_per_1000": 33.87, "eps": 0.1203, "loss": 0.03032, "mean_q": 0.594, "updates": 385024, "buffer": 1000000, "steps_per_s": 18.4, "time": "2026-10-16 18:53:40", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 196608, "reward_per_1000": 54.93, "food_per_1000": 13.98, "deaths_per_1000": 2.99, "damage_per_1000": 38.94, "eps": 0.1165, "loss": 0.03036, "mean_q": 0.604, "updates": 393216, "buffer": 1000000, "steps_per_s": 18.7, "time": "2026-10-16 18:57:20", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 200704, "reward_per_1000": 52.8, "food_per_1000": 13.31, "deaths_per_1000": 2.75, "damage_per_1000": 30.21, "eps": 0.1127, "loss": 0.0302, "mean_q": 0.613, "updates": 401408, "buffer": 1000000, "steps_per_s": 18.4, "time": "2026-10-16 19:01:02", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 204800, "reward_per_1000": 56.46, "food_per_1000": 13.98, "deaths_per_1000": 2.69, "damage_per_1000": 27.95, "eps": 0.1089, "loss": 0.03068, "mean_q": 0.621, "updates": 409600, "buffer": 1000000, "steps_per_s": 18.3, "time": "2026-10-16 19:04:46", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 208896, "reward_per_1000": 55.54, "food_per_1000": 13.98, "deaths_per_1000": 2.87, "damage_per_1000": 31.07, "eps": 0.105, "loss": 0.02882, "mean_q": 0.616, "updates": 417792, "buffer": 1000000, "steps_per_s": 17.9, "time": "2026-10-16 19:08:34", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 212992, "reward_per_1000": 67.44, "food_per_1000": 15.99, "deaths_per_1000": 2.56, "damage_per_1000": 30.46, "eps": 0.1012, "loss": 0.0289, "mean_q": 0.592, "updates": 425984, "buffer": 1000000, "steps_per_s": 16.1, "time": "2026-10-16 19:12:49", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 217088, "reward_per_1000": 60.73, "food_per_1000": 14.47, "deaths_per_1000": 2.32, "damage_per_1000": 33.69, "eps": 0.0974, "loss": 0.02931, "mean_q": 0.59, "updates": 434176, "buffer": 1000000, "steps_per_s": 16.3, "time": "2026-10-16 19:17:00", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 221184, "reward_per_1000": 58.9, "food_per_1000": 14.28, "deaths_per_1000": 2.5, "damage_per_1000": 30.03, "eps": 0.0936, "loss": 0.02949, "mean_q": 0.597, "updates": 442368, "buffer": 1000000, "steps_per_s": 17.0, "time": "2026-10-16 19:21:00", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 225280, "reward_per_1000": 59.81, "food_per_1000": 14.53, "deaths_per_1000": 2.62, "damage_per_1000": 33.57, "eps": 0.0897, "loss": 0.02938, "mean_q": 0.583, "updates": 450560, "buffer": 1000000, "steps_per_s": 16.8, "time": "2026-10-16 19:25:04", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 229376, "reward_per_1000": 68.05, "food_per_1000": 15.87, "deaths_per_1000": 2.26, "damage_per_1000": 34.36, "eps": 0.0859, "loss": 0.03107, "mean_q": 0.591, "updates": 458752, "buffer": 1000000, "steps_per_s": 16.8, "time": "2026-10-16 19:29:09", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 233472, "reward_per_1000": 66.83, "food_per_1000": 15.87, "deaths_per_1000": 2.56, "damage_per_1000": 32.65, "eps": 0.0821, "loss": 0.03123, "mean_q": 0.58, "updates": 466944, "buffer": 1000000, "steps_per_s": 17.3, "time": "2026-10-16 19:33:06", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 237568, "reward_per_1000": 72.94, "food_per_1000": 17.33, "deaths_per_1000": 2.75, "damage_per_1000": 30.09, "eps": 0.0783, "loss": 0.03093, "mean_q": 0.586, "updates": 475136, "buffer": 1000000, "steps_per_s": 17.2, "time": "2026-10-16 19:37:04", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 241664, "reward_per_1000": 75.38, "food_per_1000": 17.64, "deaths_per_1000": 2.62, "damage_per_1000": 29.42, "eps": 0.0744, "loss": 0.03158, "mean_q": 0.589, "updates": 483328, "buffer": 1000000, "steps_per_s": 17.0, "time": "2026-10-16 19:41:05", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 245760, "reward_per_1000": 77.21, "food_per_1000": 17.46, "deaths_per_1000": 2.01, "damage_per_1000": 28.99, "eps": 0.0706, "loss": 0.0307, "mean_q": 0.584, "updates": 491520, "buffer": 1000000, "steps_per_s": 16.8, "time": "2026-10-16 19:45:09", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 249856, "reward_per_1000": 67.75, "food_per_1000": 15.99, "deaths_per_1000": 2.5, "damage_per_1000": 29.3, "eps": 0.0668, "loss": 0.03164, "mean_q": 0.602, "updates": 499712, "buffer": 1000000, "steps_per_s": 17.1, "time": "2026-10-16 19:49:08", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 253952, "reward_per_1000": 78.12, "food_per_1000": 18.37, "deaths_per_1000": 2.75, "damage_per_1000": 28.26, "eps": 0.063, "loss": 0.03217, "mean_q": 0.63, "updates": 507904, "buffer": 1000000, "steps_per_s": 16.9, "time": "2026-10-16 19:53:10", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 258048, "reward_per_1000": 82.7, "food_per_1000": 19.65, "deaths_per_1000": 3.11, "damage_per_1000": 38.27, "eps": 0.0592, "loss": 0.03333, "mean_q": 0.658, "updates": 516096, "buffer": 1000000, "steps_per_s": 18.1, "time": "2026-10-16 19:56:56", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 262144, "reward_per_1000": 80.26, "food_per_1000": 18.8, "deaths_per_1000": 2.81, "damage_per_1000": 34.0, "eps": 0.0553, "loss": 0.03304, "mean_q": 0.682, "updates": 524288, "buffer": 1000000, "steps_per_s": 18.5, "time": "2026-10-16 20:00:38", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 266240, "reward_per_1000": 81.48, "food_per_1000": 18.8, "deaths_per_1000": 2.5, "damage_per_1000": 33.02, "eps": 0.0515, "loss": 0.03332, "mean_q": 0.71, "updates": 532480, "buffer": 1000000, "steps_per_s": 18.6, "time": "2026-10-16 20:04:18", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 270336, "reward_per_1000": 89.42, "food_per_1000": 20.51, "deaths_per_1000": 2.62, "damage_per_1000": 36.25, "eps": 0.0477, "loss": 0.0342, "mean_q": 0.722, "updates": 540672, "buffer": 1000000, "steps_per_s": 19.1, "time": "2026-10-16 20:07:53", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 274432, "reward_per_1000": 86.67, "food_per_1000": 20.14, "deaths_per_1000": 2.81, "damage_per_1000": 34.48, "eps": 0.0439, "loss": 0.03552, "mean_q": 0.751, "updates": 548864, "buffer": 1000000, "steps_per_s": 19.8, "time": "2026-10-16 20:11:20", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 278528, "reward_per_1000": 89.11, "food_per_1000": 20.51, "deaths_per_1000": 2.75, "damage_per_1000": 34.18, "eps": 0.04, "loss": 0.03511, "mean_q": 0.788, "updates": 557056, "buffer": 1000000, "steps_per_s": 20.2, "time": "2026-10-16 20:14:42", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 282624, "reward_per_1000": 98.27, "food_per_1000": 22.83, "deaths_per_1000": 3.17, "damage_per_1000": 34.73, "eps": 0.0362, "loss": 0.0356, "mean_q": 0.817, "updates": 565248, "buffer": 1000000, "steps_per_s": 19.9, "time": "2026-10-16 20:18:08", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 286720, "reward_per_1000": 104.98, "food_per_1000": 23.56, "deaths_per_1000": 2.56, "damage_per_1000": 32.35, "eps": 0.0324, "loss": 0.0365, "mean_q": 0.849, "updates": 573440, "buffer": 1000000, "steps_per_s": 20.0, "time": "2026-10-16 20:21:34", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 290816, "reward_per_1000": 101.93, "food_per_1000": 22.77, "deaths_per_1000": 2.44, "damage_per_1000": 34.06, "eps": 0.0286, "loss": 0.03618, "mean_q": 0.855, "updates": 581632, "buffer": 1000000, "steps_per_s": 19.6, "time": "2026-10-16 20:25:02", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 294912, "reward_per_1000": 99.18, "food_per_1000": 21.97, "deaths_per_1000": 2.14, "damage_per_1000": 39.67, "eps": 0.0247, "loss": 0.03602, "mean_q": 0.842, "updates": 589824, "buffer": 1000000, "steps_per_s": 19.6, "time": "2026-10-16 20:28:31", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 299008, "reward_per_1000": 101.62, "food_per_1000": 23.5, "deaths_per_1000": 3.23, "damage_per_1000": 40.41, "eps": 0.0209, "loss": 0.03741, "mean_q": 0.894, "updates": 598016, "buffer": 1000000, "steps_per_s": 19.2, "time": "2026-10-16 20:32:05", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 303104, "reward_per_1000": 94.91, "food_per_1000": 21.12, "deaths_per_1000": 2.2, "damage_per_1000": 40.28, "eps": 0.02, "loss": 0.03711, "mean_q": 0.922, "updates": 606208, "buffer": 1000000, "steps_per_s": 19.3, "time": "2026-10-16 20:35:37", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 307200, "reward_per_1000": 111.69, "food_per_1000": 25.33, "deaths_per_1000": 3.05, "damage_per_1000": 39.79, "eps": 0.02, "loss": 0.03688, "mean_q": 0.923, "updates": 614400, "buffer": 1000000, "steps_per_s": 19.5, "time": "2026-10-16 20:39:07", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 311296, "reward_per_1000": 109.25, "food_per_1000": 24.6, "deaths_per_1000": 2.75, "damage_per_1000": 31.74, "eps": 0.02, "loss": 0.0383, "mean_q": 0.943, "updates": 622592, "buffer": 1000000, "steps_per_s": 19.2, "time": "2026-10-16 20:42:41", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 315392, "reward_per_1000": 102.84, "food_per_1000": 23.62, "deaths_per_1000": 3.05, "damage_per_1000": 39.37, "eps": 0.02, "loss": 0.03955, "mean_q": 0.948, "updates": 630784, "buffer": 1000000, "steps_per_s": 18.8, "time": "2026-10-16 20:46:18", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 319488, "reward_per_1000": 111.69, "food_per_1000": 24.84, "deaths_per_1000": 2.5, "damage_per_1000": 44.49, "eps": 0.02, "loss": 0.03874, "mean_q": 0.947, "updates": 638976, "buffer": 1000000, "steps_per_s": 19.1, "time": "2026-10-16 20:49:53", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 323584, "reward_per_1000": 107.73, "food_per_1000": 24.17, "deaths_per_1000": 2.69, "damage_per_1000": 40.65, "eps": 0.02, "loss": 0.03883, "mean_q": 0.981, "updates": 647168, "buffer": 1000000, "steps_per_s": 19.0, "time": "2026-10-16 20:53:29", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 327680, "reward_per_1000": 109.56, "food_per_1000": 24.78, "deaths_per_1000": 2.87, "damage_per_1000": 36.74, "eps": 0.02, "loss": 0.04038, "mean_q": 1.016, "updates": 655360, "buffer": 1000000, "steps_per_s": 19.0, "time": "2026-10-16 20:57:05", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 331776, "reward_per_1000": 110.78, "food_per_1000": 24.78, "deaths_per_1000": 2.69, "damage_per_1000": 34.06, "eps": 0.02, "loss": 0.04067, "mean_q": 1.041, "updates": 663552, "buffer": 1000000, "steps_per_s": 18.8, "time": "2026-10-16 21:00:42", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 335872, "reward_per_1000": 112.3, "food_per_1000": 25.27, "deaths_per_1000": 2.87, "damage_per_1000": 37.35, "eps": 0.02, "loss": 0.03961, "mean_q": 1.056, "updates": 671744, "buffer": 1000000, "steps_per_s": 19.1, "time": "2026-10-16 21:04:16", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 339968, "reward_per_1000": 119.93, "food_per_1000": 26.61, "deaths_per_1000": 2.69, "damage_per_1000": 34.18, "eps": 0.02, "loss": 0.0401, "mean_q": 1.05, "updates": 679936, "buffer": 1000000, "steps_per_s": 19.2, "time": "2026-10-16 21:07:49", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 344064, "reward_per_1000": 114.44, "food_per_1000": 25.33, "deaths_per_1000": 2.44, "damage_per_1000": 33.69, "eps": 0.02, "loss": 0.03974, "mean_q": 1.058, "updates": 688128, "buffer": 1000000, "steps_per_s": 19.2, "time": "2026-10-16 21:11:22", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 348160, "reward_per_1000": 123.6, "food_per_1000": 27.4, "deaths_per_1000": 2.69, "damage_per_1000": 34.97, "eps": 0.02, "loss": 0.03959, "mean_q": 1.089, "updates": 696320, "buffer": 1000000, "steps_per_s": 19.0, "time": "2026-10-16 21:14:58", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 352256, "reward_per_1000": 115.66, "food_per_1000": 26.31, "deaths_per_1000": 3.17, "damage_per_1000": 35.22, "eps": 0.02, "loss": 0.04078, "mean_q": 1.128, "updates": 704512, "buffer": 1000000, "steps_per_s": 19.8, "time": "2026-10-16 21:18:25", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 356352, "reward_per_1000": 118.41, "food_per_1000": 26.55, "deaths_per_1000": 2.87, "damage_per_1000": 35.03, "eps": 0.02, "loss": 0.04136, "mean_q": 1.161, "updates": 712704, "buffer": 1000000, "steps_per_s": 20.0, "time": "2026-10-16 21:21:49", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 360448, "reward_per_1000": 123.29, "food_per_1000": 27.28, "deaths_per_1000": 2.62, "damage_per_1000": 33.08, "eps": 0.02, "loss": 0.04158, "mean_q": 1.182, "updates": 720896, "buffer": 1000000, "steps_per_s": 20.0, "time": "2026-10-16 21:25:14", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 364544, "reward_per_1000": 125.12, "food_per_1000": 27.77, "deaths_per_1000": 2.75, "damage_per_1000": 34.3, "eps": 0.02, "loss": 0.04152, "mean_q": 1.209, "updates": 729088, "buffer": 1000000, "steps_per_s": 20.4, "time": "2026-10-16 21:28:34", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 368640, "reward_per_1000": 120.24, "food_per_1000": 27.16, "deaths_per_1000": 3.11, "damage_per_1000": 36.68, "eps": 0.02, "loss": 0.04078, "mean_q": 1.216, "updates": 737280, "buffer": 1000000, "steps_per_s": 20.7, "time": "2026-10-16 21:31:52", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 372736, "reward_per_1000": 116.58, "food_per_1000": 26.55, "deaths_per_1000": 3.23, "damage_per_1000": 34.06, "eps": 0.02, "loss": 0.04096, "mean_q": 1.241, "updates": 745472, "buffer": 1000000, "steps_per_s": 20.8, "time": "2026-10-16 21:35:09", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 376832, "reward_per_1000": 122.38, "food_per_1000": 27.71, "deaths_per_1000": 3.3, "damage_per_1000": 35.4, "eps": 0.02, "loss": 0.04262, "mean_q": 1.279, "updates": 753664, "buffer": 1000000, "steps_per_s": 19.7, "time": "2026-10-16 21:38:37", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 380928, "reward_per_1000": 111.69, "food_per_1000": 25.39, "deaths_per_1000": 3.11, "damage_per_1000": 38.15, "eps": 0.02, "loss": 0.04224, "mean_q": 1.294, "updates": 761856, "buffer": 1000000, "steps_per_s": 19.8, "time": "2026-10-16 21:42:04", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 385024, "reward_per_1000": 121.77, "food_per_1000": 27.04, "deaths_per_1000": 2.69, "damage_per_1000": 39.0, "eps": 0.02, "loss": 0.04166, "mean_q": 1.287, "updates": 770048, "buffer": 1000000, "steps_per_s": 19.8, "time": "2026-10-16 21:45:31", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 389120, "reward_per_1000": 117.19, "food_per_1000": 27.04, "deaths_per_1000": 3.6, "damage_per_1000": 34.73, "eps": 0.02, "loss": 0.04216, "mean_q": 1.292, "updates": 778240, "buffer": 1000000, "steps_per_s": 19.6, "time": "2026-10-16 21:49:00", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 393216, "reward_per_1000": 118.41, "food_per_1000": 26.92, "deaths_per_1000": 3.23, "damage_per_1000": 36.01, "eps": 0.02, "loss": 0.04308, "mean_q": 1.332, "updates": 786432, "buffer": 1000000, "steps_per_s": 19.7, "time": "2026-10-16 21:52:28", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 397312, "reward_per_1000": 116.88, "food_per_1000": 26.86, "deaths_per_1000": 3.48, "damage_per_1000": 38.57, "eps": 0.02, "loss": 0.04382, "mean_q": 1.363, "updates": 794624, "buffer": 1000000, "steps_per_s": 18.6, "time": "2026-10-16 21:56:08", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 401408, "reward_per_1000": 113.83, "food_per_1000": 26.12, "deaths_per_1000": 3.36, "damage_per_1000": 34.61, "eps": 0.02, "loss": 0.04423, "mean_q": 1.397, "updates": 802816, "buffer": 1000000, "steps_per_s": 20.1, "time": "2026-10-16 21:59:32", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 405504, "reward_per_1000": 119.32, "food_per_1000": 27.47, "deaths_per_1000": 3.6, "damage_per_1000": 33.81, "eps": 0.02, "loss": 0.04383, "mean_q": 1.418, "updates": 811008, "buffer": 1000000, "steps_per_s": 19.9, "time": "2026-10-16 22:02:58", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 409600, "reward_per_1000": 120.54, "food_per_1000": 27.71, "deaths_per_1000": 3.6, "damage_per_1000": 33.87, "eps": 0.02, "loss": 0.04286, "mean_q": 1.402, "updates": 819200, "buffer": 1000000, "steps_per_s": 19.6, "time": "2026-10-16 22:06:26", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 413696, "reward_per_1000": 118.71, "food_per_1000": 26.49, "deaths_per_1000": 2.81, "damage_per_1000": 32.78, "eps": 0.02, "loss": 0.04191, "mean_q": 1.434, "updates": 827392, "buffer": 1000000, "steps_per_s": 18.5, "time": "2026-10-16 22:10:07", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 417792, "reward_per_1000": 115.05, "food_per_1000": 25.7, "deaths_per_1000": 2.69, "damage_per_1000": 35.4, "eps": 0.02, "loss": 0.04353, "mean_q": 1.463, "updates": 835584, "buffer": 1000000, "steps_per_s": 18.6, "time": "2026-10-16 22:13:47", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 421888, "reward_per_1000": 111.39, "food_per_1000": 25.27, "deaths_per_1000": 3.05, "damage_per_1000": 40.53, "eps": 0.02, "loss": 0.04341, "mean_q": 1.475, "updates": 843776, "buffer": 1000000, "steps_per_s": 18.7, "time": "2026-10-16 22:17:26", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 425984, "reward_per_1000": 120.24, "food_per_1000": 27.47, "deaths_per_1000": 3.42, "damage_per_1000": 33.75, "eps": 0.02, "loss": 0.04341, "mean_q": 1.473, "updates": 851968, "buffer": 1000000, "steps_per_s": 19.1, "time": "2026-10-16 22:21:01", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 430080, "reward_per_1000": 119.32, "food_per_1000": 26.79, "deaths_per_1000": 3.05, "damage_per_1000": 36.32, "eps": 0.02, "loss": 0.04385, "mean_q": 1.478, "updates": 860160, "buffer": 1000000, "steps_per_s": 19.3, "time": "2026-10-16 22:24:34", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 434176, "reward_per_1000": 126.95, "food_per_1000": 28.26, "deaths_per_1000": 2.87, "damage_per_1000": 32.41, "eps": 0.02, "loss": 0.04401, "mean_q": 1.507, "updates": 868352, "buffer": 1000000, "steps_per_s": 19.1, "time": "2026-10-16 22:28:09", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 438272, "reward_per_1000": 115.66, "food_per_1000": 26.12, "deaths_per_1000": 2.99, "damage_per_1000": 34.48, "eps": 0.02, "loss": 0.04471, "mean_q": 1.518, "updates": 876544, "buffer": 1000000, "steps_per_s": 18.7, "time": "2026-10-16 22:31:47", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 442368, "reward_per_1000": 115.97, "food_per_1000": 26.25, "deaths_per_1000": 3.05, "damage_per_1000": 47.0, "eps": 0.02, "loss": 0.04415, "mean_q": 1.534, "updates": 884736, "buffer": 1000000, "steps_per_s": 18.9, "time": "2026-10-16 22:35:24", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 446464, "reward_per_1000": 125.73, "food_per_1000": 28.2, "deaths_per_1000": 3.05, "damage_per_1000": 36.13, "eps": 0.02, "loss": 0.04377, "mean_q": 1.542, "updates": 892928, "buffer": 1000000, "steps_per_s": 17.9, "time": "2026-10-16 22:39:13", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 450560, "reward_per_1000": 109.56, "food_per_1000": 25.63, "deaths_per_1000": 3.72, "damage_per_1000": 35.03, "eps": 0.02, "loss": 0.04389, "mean_q": 1.563, "updates": 901120, "buffer": 1000000, "steps_per_s": 16.8, "time": "2026-10-16 22:43:18", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 454656, "reward_per_1000": 120.85, "food_per_1000": 26.61, "deaths_per_1000": 2.44, "damage_per_1000": 33.81, "eps": 0.02, "loss": 0.04478, "mean_q": 1.577, "updates": 909312, "buffer": 1000000, "steps_per_s": 17.5, "time": "2026-10-16 22:47:12", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 458752, "reward_per_1000": 110.78, "food_per_1000": 25.51, "deaths_per_1000": 3.36, "damage_per_1000": 37.84, "eps": 0.02, "loss": 0.04649, "mean_q": 1.597, "updates": 917504, "buffer": 1000000, "steps_per_s": 17.9, "time": "2026-10-16 22:51:01", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 462848, "reward_per_1000": 122.07, "food_per_1000": 27.95, "deaths_per_1000": 3.66, "damage_per_1000": 40.22, "eps": 0.02, "loss": 0.04521, "mean_q": 1.624, "updates": 925696, "buffer": 1000000, "steps_per_s": 16.2, "time": "2026-10-16 22:55:14", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 466944, "reward_per_1000": 116.27, "food_per_1000": 26.43, "deaths_per_1000": 3.17, "damage_per_1000": 31.92, "eps": 0.02, "loss": 0.04466, "mean_q": 1.63, "updates": 933888, "buffer": 1000000, "steps_per_s": 16.9, "time": "2026-10-16 22:59:16", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 471040, "reward_per_1000": 122.38, "food_per_1000": 27.47, "deaths_per_1000": 2.99, "damage_per_1000": 36.01, "eps": 0.02, "loss": 0.04543, "mean_q": 1.633, "updates": 942080, "buffer": 1000000, "steps_per_s": 17.1, "time": "2026-10-16 23:03:17", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 475136, "reward_per_1000": 118.1, "food_per_1000": 26.61, "deaths_per_1000": 2.99, "damage_per_1000": 35.1, "eps": 0.02, "loss": 0.04508, "mean_q": 1.622, "updates": 950272, "buffer": 1000000, "steps_per_s": 14.0, "time": "2026-10-16 23:08:09", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 479232, "reward_per_1000": 111.39, "food_per_1000": 26.0, "deaths_per_1000": 3.72, "damage_per_1000": 36.93, "eps": 0.02, "loss": 0.04511, "mean_q": 1.631, "updates": 958464, "buffer": 1000000, "steps_per_s": 17.9, "time": "2026-10-16 23:11:58", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 483328, "reward_per_1000": 121.46, "food_per_1000": 26.61, "deaths_per_1000": 2.32, "damage_per_1000": 35.83, "eps": 0.02, "loss": 0.04435, "mean_q": 1.638, "updates": 966656, "buffer": 1000000, "steps_per_s": 18.7, "time": "2026-10-16 23:15:37", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 487424, "reward_per_1000": 123.9, "food_per_1000": 27.47, "deaths_per_1000": 2.69, "damage_per_1000": 34.79, "eps": 0.02, "loss": 0.04632, "mean_q": 1.656, "updates": 974848, "buffer": 1000000, "steps_per_s": 19.0, "time": "2026-10-16 23:19:13", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 491520, "reward_per_1000": 108.34, "food_per_1000": 24.9, "deaths_per_1000": 3.23, "damage_per_1000": 41.75, "eps": 0.02, "loss": 0.04661, "mean_q": 1.686, "updates": 983040, "buffer": 1000000, "steps_per_s": 19.2, "time": "2026-10-16 23:22:46", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 495616, "reward_per_1000": 121.15, "food_per_1000": 27.22, "deaths_per_1000": 2.99, "damage_per_1000": 35.16, "eps": 0.02, "loss": 0.04637, "mean_q": 1.72, "updates": 991232, "buffer": 1000000, "steps_per_s": 20.0, "time": "2026-10-16 23:26:11", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+{"step": 499712, "reward_per_1000": 116.88, "food_per_1000": 26.31, "deaths_per_1000": 2.93, "damage_per_1000": 32.29, "eps": 0.02, "loss": 0.04713, "mean_q": 1.746, "updates": 999424, "buffer": 1000000, "steps_per_s": 20.1, "time": "2026-10-16 23:29:35", "lr": 0.0001, "ent": 0.0, "shaping_per_1000": 0.0}
+STOPPED at step 500000; best [[119.23300000000002, 'best_00389120.pt'], [118.62199999999999, 'best_00471040.pt'], [118.377, 'best_00368640.pt']]

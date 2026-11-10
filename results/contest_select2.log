@@ -1,0 +1,9 @@
+### sub_fine
+final: 8000 steps 115s | reward/1000 +51.2 (+:87 -:5) | missed 0 | think 0.2ms | updates 0
+### sub_long_snap190k
+final: 8000 steps 114s | reward/1000 +58.1 (+:93 -:0) | missed 0 | think 0.2ms | updates 0
+### sub_fine
+final: 8000 steps 113s | reward/1000 +45.6 (+:78 -:5) | missed 0 | think 0.2ms | updates 0
+### sub_long_snap190k
+final: 8000 steps 114s | reward/1000 +52.5 (+:87 -:3) | missed 0 | think 0.2ms | updates 0
+### SELECT2_DONE

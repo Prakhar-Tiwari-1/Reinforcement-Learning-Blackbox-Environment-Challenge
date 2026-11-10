@@ -1,8 +1,26 @@
+# Secrets: the token lives only in .env (see .env.example)
 .env
+
+# Python / environment
 .venv/
 __pycache__/
 *.pyc
-*.pt
-*.npz
-runs/
 .ipynb_checkpoints/
+
+# Large or regenerable artefacts: recordings, training runs, replay buffers, temporary files
+data/
+runs/
+*.npz
+*.tmp
+*.tmp.npz
+results/.contest.lock
+
+# Course material (not ours to publish)
+slides/
+
+# Checkpoints: only the curated ones in models/ are versioned
+*.pt
+!models/*.pt
+
+# Repository bundles (local backups)
+*.bundle

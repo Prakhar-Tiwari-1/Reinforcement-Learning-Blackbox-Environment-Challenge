@@ -1,0 +1,21 @@
+data/long_random.npz: 30000 steps x 4 agents, window 3000
+  window          food/1000  deaths/1000  reward/1000   mean dim9   mean dim1
+       0-  3000       1.50        5.33        -19.2       0.209       0.539
+    3000-  6000       0.58        4.75        -20.8       0.082       0.577
+    6000-  9000       1.17        4.83        -18.3       0.133       0.520
+    9000- 12000       0.25        5.58        -26.7       0.083       0.554
+   12000- 15000       0.67        4.83        -20.8       0.102       0.524
+   15000- 18000       0.67        4.67        -20.0       0.116       0.566
+   18000- 21000       0.50        6.50        -30.0       0.099       0.578
+   21000- 24000       0.42        4.67        -21.2       0.117       0.591
+   24000- 27000       1.17        4.42        -16.2       0.130       0.503
+   27000- 30000       0.67        4.83        -20.8       0.137       0.520
+  first half: food 0.83 deaths 5.07   second half: food 0.68 deaths 5.02
+
+  entity counts by type (column 0 of state, rows with any non-zero), over time:
+    step      0: total  41  type -1: 16  type +1: 5  type +2: 16  type +3: 4
+    step   5900: total  41  type -1: 16  type +1: 5  type +2: 16  type +3: 4
+    step  11900: total  41  type -1: 16  type +1: 5  type +2: 16  type +3: 4
+    step  17900: total  41  type -1: 16  type +1: 5  type +2: 16  type +3: 4
+    step  23900: total  41  type -1: 16  type +1: 5  type +2: 16  type +3: 4
+    step  29900: total  41  type -1: 16  type +1: 5  type +2: 16  type +3: 4

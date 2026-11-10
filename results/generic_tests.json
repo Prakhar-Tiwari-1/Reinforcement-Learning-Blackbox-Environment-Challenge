@@ -1,0 +1,42 @@
+{
+ "CartPole-v1 (Box -> Discrete)": {
+  "steps": 60000,
+  "episodes": 294,
+  "random_mean": 22.15742793791574,
+  "learned_first10pct": 19.586206896551722,
+  "learned_last20pct": 465.76271186440675,
+  "seconds": 52
+ },
+ "FrozenLake-v1 4x4 (Discrete -> Discrete)": {
+  "steps": 30000,
+  "episodes": 4542,
+  "random_mean": 0.014084507042253521,
+  "learned_first10pct": 0.013215859030837005,
+  "learned_last20pct": 0.9790979097909791,
+  "seconds": 19
+ },
+ "Pendulum-v1 (Box -> Box)": {
+  "steps": 100000,
+  "episodes": 500,
+  "random_mean": -1233.9635105199893,
+  "learned_first10pct": -1515.6738775172541,
+  "learned_last20pct": -1103.231524927024,
+  "seconds": 33
+ },
+ "BitMatch (Box -> MultiBinary)": {
+  "steps": 20000,
+  "episodes": 400,
+  "random_mean": 75.36,
+  "learned_first10pct": 75.3,
+  "learned_last20pct": 87.4375,
+  "seconds": 28
+ },
+ "BitMatch (Discrete -> MultiBinary)": {
+  "steps": 20000,
+  "episodes": 400,
+  "random_mean": 75.3175,
+  "learned_first10pct": 75.525,
+  "learned_last20pct": 81.7125,
+  "seconds": 21
+ }
+}

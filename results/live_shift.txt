@@ -1,0 +1,20 @@
+LIVE contest (submission policy): 5000 steps, 1 files
+  reward/1000 +39.0 | r=+5 per 1000 12.0 | died per 1000 4.40
+  world step increments between our steps: mean 1.000, >1 in 0.0% of steps; wall time per step 35 ms (median)
+  action use: [0,0] 9.4%, [0,1] 31.1%, [1,0] 22.4%, [1,1] 37.0%
+
+Observation statistics (fraction of steps / means)
+                                o1>0.9  o4|o7=1  o3|o6=1  o9>0.75  o9<0.2
+LIVE now (DDQN)                  0.321    0.030    0.183    0.646   0.167
+training, DDQN                   0.241    0.028    0.087    0.668   0.180
+contest 15-16 Oct (rand/PPO)     0.419    0.094    0.269    0.090   0.825
+
+Mean of o0..o10
+LIVE now (DDQN)                 0.00  0.41  0.00  0.12  0.03  0.01  0.15  0.01  0.54  0.71  0.42
+training, DDQN                  0.00  0.44  0.00  0.04  0.02  0.00  0.07  0.02  0.41  0.72  0.37
+contest 15-16 Oct (rand/PPO)    0.00  0.59  0.00  0.11  0.06  0.00  0.16  0.09  0.46  0.13  0.07
+
+P(r=+5 within 10 steps | o9 > 0.85): LIVE 0.198 over 3014 steps
+                                       contest 15-16 Oct (rand/PPO) 0.202 over 3074 steps
+
+Before `died` (LIVE, 22 cases): mean o1 at t-20/-10/-5/-1: 0.66 / 0.79 / 0.93 / 0.99; o8 at t-20/-10/-1: 0.55 / 0.47 / 0.17; o4|o7=1 at t-1: 0.36

@@ -1,0 +1,29 @@
+### conservative-online rep 1
+agent prakhar.tiwari@polytechnique.edu: obs Box(0.0, 1.0, (11,), float32) act MultiBinary(2) | pretrained True | learning True (lr 3e-05) | hidden units 128
+2000 steps 38s | reward/1000 +37.5 (+:18 -:3) | missed 0 | think 0.3ms | updates 0
+4000 steps 75s | reward/1000 +30.0 (+:29 -:5) | missed 0 | think 0.3ms | updates 1
+6000 steps 113s | reward/1000 +33.3 (+:47 -:7) | missed 0 | think 0.3ms | updates 2
+8000 steps 152s | reward/1000 +34.4 (+:65 -:10) | missed 0 | think 0.3ms | updates 3
+final: 8000 steps 152s | reward/1000 +34.4 (+:65 -:10) | missed 0 | think 0.3ms | updates 3
+### frozen rep 1
+agent prakhar.tiwari@polytechnique.edu: obs Box(0.0, 1.0, (11,), float32) act MultiBinary(2) | pretrained True | learning False (lr 0.0001) | hidden units 128
+2000 steps 38s | reward/1000 +37.5 (+:20 -:5) | missed 0 | think 0.2ms | updates 0
+4000 steps 76s | reward/1000 +38.8 (+:40 -:9) | missed 0 | think 0.2ms | updates 0
+6000 steps 114s | reward/1000 +37.5 (+:56 -:11) | missed 0 | think 0.2ms | updates 0
+8000 steps 152s | reward/1000 +40.0 (+:77 -:13) | missed 0 | think 0.2ms | updates 0
+final: 8000 steps 152s | reward/1000 +40.0 (+:77 -:13) | missed 0 | think 0.2ms | updates 0
+### conservative-online rep 2
+agent prakhar.tiwari@polytechnique.edu: obs Box(0.0, 1.0, (11,), float32) act MultiBinary(2) | pretrained True | learning True (lr 3e-05) | hidden units 128
+2000 steps 38s | reward/1000 +45.0 (+:21 -:3) | missed 0 | think 0.3ms | updates 0
+4000 steps 76s | reward/1000 +41.2 (+:37 -:4) | missed 0 | think 0.3ms | updates 1
+6000 steps 114s | reward/1000 +40.8 (+:56 -:7) | missed 0 | think 0.3ms | updates 2
+8000 steps 152s | reward/1000 +38.1 (+:71 -:10) | missed 0 | think 0.3ms | updates 3
+final: 8000 steps 152s | reward/1000 +38.1 (+:71 -:10) | missed 0 | think 0.3ms | updates 3
+### frozen rep 2
+agent prakhar.tiwari@polytechnique.edu: obs Box(0.0, 1.0, (11,), float32) act MultiBinary(2) | pretrained True | learning False (lr 0.0001) | hidden units 128
+2000 steps 38s | reward/1000 +37.5 (+:19 -:4) | missed 0 | think 0.2ms | updates 0
+4000 steps 76s | reward/1000 +38.8 (+:38 -:7) | missed 0 | think 0.2ms | updates 0
+6000 steps 114s | reward/1000 +38.3 (+:54 -:8) | missed 0 | think 0.2ms | updates 0
+8000 steps 152s | reward/1000 +37.5 (+:72 -:12) | missed 0 | think 0.2ms | updates 0
+final: 8000 steps 152s | reward/1000 +37.5 (+:72 -:12) | missed 0 | think 0.2ms | updates 0
+### CONTEST_OVERNIGHT_DONE
